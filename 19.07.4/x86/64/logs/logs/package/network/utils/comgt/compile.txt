@@ -17,4 +17,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/comgt.0.32/ipkg-x86_64/comgt into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/comgt_0.32-32_x86_64.ipk
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/comgt.0.32/ipkg-x86_64/comgt-directip into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/comgt-directip_0.32-32_x86_64.ipk
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/comgt.0.32/ipkg-x86_64/comgt-ncm into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/comgt-ncm_0.32-32_x86_64.ipk
-time: package/network/utils/comgt/compile#1.26#0.18#3.86
+time: package/network/utils/comgt/compile#1.30#0.16#4.72

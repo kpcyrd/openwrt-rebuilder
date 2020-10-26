@@ -51,4 +51,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/usign-2020-05-23-f1f65026'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/usign-2020-05-23-f1f65026/ipkg-x86_64/usign/usr/bin/usign: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/usign-2020-05-23-f1f65026/ipkg-x86_64/usign into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/usign_2020-05-23-f1f65026-1_x86_64.ipk
-time: package/system/usign/compile#1.38#0.40#2.44
+time: package/system/usign/compile#1.40#0.34#2.65

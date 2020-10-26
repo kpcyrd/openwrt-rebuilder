@@ -1,1 +1,1 @@
-time: package/feeds/luci/luci-mod-status/download#0.88#0.11#1.24
+time: package/feeds/luci/luci-mod-status/download#0.84#0.15#1.23

@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/libuhttpd-2.2.2.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 54 29604   54 16128    0     0  30545      0 --:--:-- --:--:-- --:--:-- 30487100 29604  100 29604    0     0  55856      0 --:--:-- --:--:-- --:--:-- 55751
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 29604  100 29604    0     0  58854      0 --:--:-- --:--:-- --:--:-- 58738
 
 Applying ./patches/001-fix-find-lua.patch using plaintext: 
 patching file src/CMakeLists.txt
@@ -98,4 +98,4 @@ Install the project...
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libuhttpd-nossl/libuhttpd-2.2.2/ipkg-install/usr/lib/libuhttpd.so
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libuhttpd-nossl/libuhttpd-2.2.2/ipkg-install/usr/lib/lua/./uhttpd.so
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libuhttpd-nossl/libuhttpd-2.2.2'
-time: package/feeds/packages/libuhttpd/nossl/compile#1.13#0.26#2.62
+time: package/feeds/packages/libuhttpd/nossl/compile#1.13#0.35#2.79

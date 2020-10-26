@@ -1390,296 +1390,296 @@ Building backport-include/backport/autoconf.h ... done.
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/pcu.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/phy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/reset.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/attach.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/status.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/base.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/driver-ops.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/led.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/sta_info.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/rfkill.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/ani.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/wep.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/sysfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/wpa.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/mac80211-ops.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/scan.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/debug.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/offchannel.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/pci.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/ath5k.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/debug.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ht.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/hif.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/agg-tx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/htc_mbox.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/agg-rx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/vht.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/htc_pipe.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/he.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/bmi.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ibss.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/cfg80211.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/iface.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/init.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rate.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/michael.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/txrx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/tkip.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/wmi.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/aes_ccm.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/aes_cmac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/fils_aead.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/cfg.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/core.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/recovery.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/testmode.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ethtool.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/status.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/sdio.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/driver-ops.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/sta_info.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_core.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/beacon.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/gpio.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/spectmgmt.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/wep.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/init.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/tx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/wpa.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/scan.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/recv.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/key.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/util.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/offchannel.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/xmit.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ht.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/agg-tx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/link.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/wme.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/agg-rx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/antenna.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/chan.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/vht.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/channel.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/trace.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/he.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/pci.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mlme.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ibss.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/dfs_debug.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/dfs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/iface.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/debug.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/tdls.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rate.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9002_hw.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ocb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/michael.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9003_hw.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/led.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/tkip.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/aes_ccm.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/hw.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs_sta.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/aes_cmac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/fils_aead.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/cfg.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9003_phy.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs_netdev.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9002_phy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ethtool.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar5008_phy.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs_key.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9002_calib.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/spectmgmt.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9003_calib.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_pathtbl.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/tx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/calib.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_plink.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/eeprom.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_hwmp.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/eeprom_def.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_sync.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/key.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/eeprom_4k.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_ps.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/pm.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/util.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/eeprom_9287.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/wme.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ani.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/chan.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/mac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel_ht.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/trace.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9002_mac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel_debugfs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mlme.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9003_mac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel_ht_debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9003_eeprom.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mac80211.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/tdls.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ar9003_paprd.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/ocb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/led.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/common-init.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/common-beacon.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs_sta.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/common-debug.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs_netdev.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_hst.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/hif_usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/debugfs_key.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/wmi.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_drv_txrx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_pathtbl.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_drv_main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_plink.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_drv_beacon.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_hwmp.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_drv_init.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_sync.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_drv_gpio.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mesh_ps.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/htc_drv_debug.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/pm.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k_hw.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k_common.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k_htc.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel_ht.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/cmd.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel_debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/rc80211_minstrel_ht_debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/phy.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mac80211.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/core.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/led.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/sysfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/fw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/radiotap.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/tx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/util.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/rx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/reg.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/debug.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/scan.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/carl9170.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/cisco/airo.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/nl80211.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/bus.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_g.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/core.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/sysfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/radiotap.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/lo.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/util.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/wa.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/reg.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables_nphy.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2055.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/scan.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2056.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2057.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/nl80211.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_common.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_n.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_lp.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/mlme.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables_lpphy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables_nphy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/ibss.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_ht.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2055.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/sme.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables_phy_ht.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2056.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/chan.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2059.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2057.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/ethtool.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/sysfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/xmit.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_common.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/mesh.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_n.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/ap.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/dma.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/trace.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/rfkill.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/ocb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/debugfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/ppr.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_lp.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/wext-compat.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/leds.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables_lpphy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/wext-sme.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/b43.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/phy_ht.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_wep.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/tables_phy_ht.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_ccmp.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/ilt.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/radio_2059.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_tkip.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/phy.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/cfg80211.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/radio.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/sysfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/xmit.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/rfkill.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/leds.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/dma.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/b43legacy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/sysfs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/xmit.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/dma.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/rfkill.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/ppr.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/leds.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/b43.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cfg80211.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/ipw2100.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/ilt.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/phy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/chip.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/radio.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/fwil.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/ipw2200.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/fweh.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/sysfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/p2p.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/xmit.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/proto.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/rfkill.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/common.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_module.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/leds.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/core.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_tx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/dma.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/firmware.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_rx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/feature.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_wx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/btcoex.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_geo.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/vendor.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/common.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/pno.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcdc.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/fwsignal.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/commonring.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965-mac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/flowring.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/usb.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965-rs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/pcie.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/dmi.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965-calib.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/b43legacy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/mac80211_if.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/3945-mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/feature.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/ucode_loader.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/ampdu.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/3945.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/btcoex.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/vendor.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/antsel.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/3945-rs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/pno.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/channel.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcdc.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/fwsignal.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/commonring.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/flowring.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy_shim.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/msgbuf.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/pmu.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/rate.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/stf.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/pcie.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/aiutils.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_cmn.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/dmi.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/utils.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_lcn.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/d11.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/cisco/airo.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_n.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phytbl_lcn.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phytbl_n.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_qmath.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/dma.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcms_trace_events.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/debug.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcmsmac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/ipw2100.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/ipw2200.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_module.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_tx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_rx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_wx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw_geo.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/libipw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965-mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965-rs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/4965-calib.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/3945-mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/3945.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/3945-rs.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/iwlegacy.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/iwl4965.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlegacy/iwl3945.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-io.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-drv.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-debug.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-eeprom-read.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-eeprom-parse.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy_shim.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-phy-db.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/pmu.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/rate.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/stf.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/drv.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/aiutils.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/rx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_cmn.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/tx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_lcn.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/trans.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_n.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/ctxt-info.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/ctxt-info-gen3.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/trans-gen2.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/iwl-trans.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/fw/notif-wait.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phytbl_lcn.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/1000.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phytbl_n.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/2000.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/phy/phy_qmath.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/dma.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/5000.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/6000.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcms_trace_events.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/7000.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/debug.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/8000.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcmsmac.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/9000.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/utils.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/cfg/22000.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/d11.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/fw/paging.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/fw/smem.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/fw/init.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/iwlwifi/fw/dbg.o
@@ -1735,16 +1735,16 @@ Building backport-include/backport/autoconf.h ... done.
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/scan.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/wext.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/hermes_dld.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/eeprom.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/hermes.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/cfg.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/fwio.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/orinoco_cs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/txrx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/orinoco_plx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/orinoco_pci.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/main.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/orinoco.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/eeprom.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/fwio.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/txrx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/led.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/p54usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/p54pci.o
@@ -1756,59 +1756,46 @@ Building backport-include/backport/autoconf.h ... done.
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/ethtool.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/rx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/init.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/tx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/firmware.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mcu.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/if_usb.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/trace.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/if_sdio.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/dma.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/if_spi.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/core.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/libertas.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/usb8xxx.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/libertas_sdio.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/libertas_spi.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/eeprom.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/init.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/phy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/cfp.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mac.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/cmdevt.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/util.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/debugfs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/util.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/tx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/init.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/txrx.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mt7601u.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00dev.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/wmm.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mcu.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/trace.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/11n.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00config.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/dma.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/11ac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00queue.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/core.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/11n_aggr.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00link.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/eeprom.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/11n_rxreorder.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00crypto.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/phy.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/scan.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00firmware.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00leds.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mac.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/join.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00eeprom.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00mmio.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/util.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sta_ioctl.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00pci.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/debugfs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/tx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sta_cmd.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00usb.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mt7601u.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/uap_cmd.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800lib.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/ie.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sta_cmdresp.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sta_event.o
@@ -1816,31 +1803,35 @@ Building backport-include/backport/autoconf.h ... done.
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sta_tx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sta_rx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/uap_txrx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800mmio.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/cfg80211.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2400pci.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2500pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/ethtool.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/11h.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt61pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/tdls.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/debugfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/sdio.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2500usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/pcie.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt73usb.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/mwifiex.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00dev.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00config.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00queue.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00link.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00crypto.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00firmware.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/dev.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00leds.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00eeprom.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/rtl8225.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00lib.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00mmio.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/sa2400.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/max2820.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/grf5101.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/rtl8225se.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800lib.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/rtl818x_pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8187/dev.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8225.o
@@ -1848,76 +1839,144 @@ Building backport-include/backport/autoconf.h ... done.
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8187/rfkill.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800mmio.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2400pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_8192e.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_8723b.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2500pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_8723a.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_8192c.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/base.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt61pci.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/base.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/cam.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800pci.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/core.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2500usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/debug.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt73usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/efuse.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/ps.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rc.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00lib.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/regd.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_core.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/stats.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_mac80211.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/pci.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_mgmt.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_hal.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/halbtc8192e2ant.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_ps.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/halbtc8723b1ant.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/fw_common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_sdio.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_sdio_ops.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/halbtc8723b2ant.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/phy_common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/halbtc8821a1ant.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_usb_ops.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_sdio.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_usb.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/halbtc8821a2ant.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/cmd.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/halbtcoutsrc.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/acx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/rtl_btc.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/debugfs.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/btcoexist.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/scan.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/event.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/wl12xx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/fw_common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/main.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/phy_common.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/acx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/tx.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/dm.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/io.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/hw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/led.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/scan.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/phy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/cmd.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rf.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/event.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/sw.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/wl18xx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/main.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/table.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/trx.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/dm.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/hw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/cmd.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/led.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/io.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/mac.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/event.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/phy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/tx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rf.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/sw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/rx.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/table.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/trx.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/ps.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/acx.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rtl8192cu.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/dm.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/fw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/boot.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/hw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/init.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/debugfs.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/led.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/scan.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/phy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/sysfs.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/vendor_cmd.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/rf.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/testmode.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/sw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/sdio.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/table.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/trx.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore_sdio.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_chip.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192de/rtl8192de.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/dm.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_mac.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/fw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_al2230.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/hw.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_rf2959.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_al7230b.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/led.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_uw2453.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/phy.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/rf.o
+  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/sw.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/table.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/trx.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/rtl8192se.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/dm.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd1211rw.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/fw.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192se/rtl8192se.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtlwifi.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl_pci.o
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl_usb.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/hw.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/led.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/phy.o
@@ -1927,73 +1986,14 @@ Building backport-include/backport/autoconf.h ... done.
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/table.o
   CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/trx.o
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/rtl8821ae.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtlwifi.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl_pci.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl_usb.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_core.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_mac80211.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_mgmt.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_hal.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_ps.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_sdio.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_sdio_ops.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_usb.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x_usb_ops.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_91x.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_sdio.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_usb.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/cmd.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/acx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/debugfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/scan.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/event.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/wl12xx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/acx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/tx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/io.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/debugfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/scan.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/cmd.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/event.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/wl18xx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/main.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/cmd.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/io.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/event.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_chip.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_mac.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/tx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/rx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_al2230.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/ps.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/acx.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_rf2959.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/boot.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_al7230b.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf_uw2453.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/init.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_rf.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/debugfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd_usb.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/scan.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd1211rw.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/sysfs.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/vendor_cmd.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/testmode.o
-  CC [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/sdio.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore.o
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore_sdio.o
   Building modules, stage 2.
   MODPOST 86 modules
-  CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/compat/compat.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/admtek/adm8211.mod.o
+  CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/compat/compat.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath10k/ath10k_core.mod.o
-  CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath10k/ath10k_pci.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/ath5k.mod.o
+  CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath10k/ath10k_pci.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_core.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.mod.o
   CC      /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_usb.mod.o
@@ -2082,16 +2082,16 @@ Building backport-include/backport/autoconf.h ... done.
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath5k/ath5k.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_core.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k_common.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k_htc.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/ath9k/ath9k_hw.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ath/carl9170/carl9170.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43/b43.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/b43legacy/b43legacy.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmsmac/brcmsmac.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/cisco/airo.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intel/ipw2x00/ipw2100.ko
@@ -2109,8 +2109,8 @@ Building backport-include/backport/autoconf.h ... done.
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/orinoco/orinoco_plx.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/p54common.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/p54pci.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/p54usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mac80211_hwsim.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/intersil/p54/p54usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/libertas.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/libertas_sdio.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/libertas/libertas_spi.ko
@@ -2119,8 +2119,8 @@ Building backport-include/backport/autoconf.h ... done.
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/marvell/mwl8k.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2400pci.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2500pci.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2500usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2800lib.ko
@@ -2133,8 +2133,8 @@ Building backport-include/backport/autoconf.h ... done.
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt2x00usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt61pci.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ralink/rt2x00/rt73usb.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/rtl818x_pci.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl818x/rtl8180/rtl818x_pci.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/btcoexist/btcoexist.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.ko
@@ -2151,15 +2151,15 @@ Building backport-include/backport/autoconf.h ... done.
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/rsi/rsi_usb.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl12xx/wl12xx.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wl18xx/wl18xx.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore_sdio.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/ti/wlcore/wlcore.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/drivers/net/wireless/zydas/zd1211rw/zd1211rw.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mac80211.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/cfg80211.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/mac80211/mac80211.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_ccmp.ko
-  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_tkip.ko
   LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_wep.ko
+  LD [M]  /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/net/wireless/lib80211_crypt_tkip.ko
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/ipkg-x86_64/kmod-cfg80211/lib/modules/4.14.195/cfg80211.ko: relocatable
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/ipkg-x86_64/kmod-cfg80211/lib/modules/4.14.195/compat.ko: relocatable
@@ -2927,4 +2927,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/ipkg-x86_64/kmod-rtl8821ae into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-rtl8821ae_4.14.195+4.19.137-1-2_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/ipkg-x86_64/kmod-rtl8xxxu/lib/modules/4.14.195/rtl8xxxu.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/backports-4.19.137-1/ipkg-x86_64/kmod-rtl8xxxu into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-rtl8xxxu_4.14.195+4.19.137-1-2_x86_64.ipk
-time: package/kernel/mac80211/compile#407.62#51.55#433.87
+time: package/kernel/mac80211/compile#436.68#58.75#449.56

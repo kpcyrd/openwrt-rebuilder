@@ -488,4 +488,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/f2fs-tools-1.12.0/ipkg-x86_64/libf2fs into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/libf2fs6_1.12.0-3_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/f2fs-tools-1.12.0/ipkg-x86_64/mkf2fs/usr/sbin/mkfs.f2fs: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/f2fs-tools-1.12.0/ipkg-x86_64/mkf2fs into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/mkf2fs_1.12.0-3_x86_64.ipk
-time: package/utils/f2fs-tools/compile#18.62#2.57#35.29
+time: package/utils/f2fs-tools/compile#19.22#2.62#37.43

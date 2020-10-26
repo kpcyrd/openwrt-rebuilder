@@ -2302,4 +2302,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/e2fsprogs-1.44.5/ipkg-x86_64/e2fsprogs/usr/sbin/e2fsck: executable
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/e2fsprogs-1.44.5/ipkg-x86_64/e2fsprogs/usr/lib/libe2p.so.2.3: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/e2fsprogs-1.44.5/ipkg-x86_64/e2fsprogs into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/e2fsprogs_1.44.5-2_x86_64.ipk
-time: package/utils/e2fsprogs/compile#46.72#8.66#89.13
+time: package/utils/e2fsprogs/compile#47.08#9.31#90.74

@@ -132,4 +132,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/procd-2020-03-07-09b9bd82/ipkg-x86_64/procd/sbin/askfirst: executable
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/procd-2020-03-07-09b9bd82/ipkg-x86_64/procd/lib/libsetlbf.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/procd-2020-03-07-09b9bd82/ipkg-x86_64/procd into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/procd_2020-03-07-09b9bd82-1_x86_64.ipk
-time: package/system/procd/compile#3.78#0.74#10.79
+time: package/system/procd/compile#3.77#0.80#10.53

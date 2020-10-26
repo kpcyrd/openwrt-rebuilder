@@ -49,4 +49,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/umbim-2019-03-11-24f9dc71'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/umbim-2019-03-11-24f9dc71/ipkg-x86_64/umbim/sbin/umbim: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/umbim-2019-03-11-24f9dc71/ipkg-x86_64/umbim into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/umbim_2019-03-11-24f9dc71-1_x86_64.ipk
-time: package/network/utils/umbim/compile#1.03#0.25#2.83
+time: package/network/utils/umbim/compile#1.03#0.24#2.61

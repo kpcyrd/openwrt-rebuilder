@@ -19,4 +19,4 @@ x86_64-openwrt-linux-musl-gcc -L/home/runner/work/openwrt-rebuilder/openwrt-rebu
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/netatop-2.0/daemon'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/netatop-2.0/ipkg-x86_64/kmod-netatop/lib/modules/4.14.195/netatop.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/netatop-2.0/ipkg-x86_64/kmod-netatop into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-netatop_4.14.195+2.0-1_x86_64.ipk
-time: package/feeds/packages/netatop/compile#1.85#0.52#4.99
+time: package/feeds/packages/netatop/compile#2.03#0.49#8.05

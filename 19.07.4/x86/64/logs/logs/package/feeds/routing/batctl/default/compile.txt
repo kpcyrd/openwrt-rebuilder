@@ -94,4 +94,4 @@ install -m 0644 man/batctl.8 /home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/batctl-default/batctl-2019.2'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/batctl-default/batctl-2019.2/ipkg-x86_64/batctl-default/usr/libexec/batctl-default: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/batctl-default/batctl-2019.2/ipkg-x86_64/batctl-default into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/routing/batctl-default_2019.2-6_x86_64.ipk
-time: package/feeds/routing/batctl/default/compile#4.17#0.59#13.72
+time: package/feeds/routing/batctl/default/compile#4.15#0.67#13.32

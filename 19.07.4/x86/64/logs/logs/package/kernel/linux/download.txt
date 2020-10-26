@@ -1,2 +1,2 @@
 can't open file '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/linux-4.14.195/.config' at /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/scripts/kconfig.pl line 32.
-time: package/kernel/linux/download#3.06#0.27#3.63
+time: package/kernel/linux/download#3.03#0.31#3.59

@@ -290,4 +290,4 @@ make[5]: Nothing to be done for 'install-data-am'.
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/json-c-0.12.1/tests'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/json-c-0.12.1/tests'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/json-c-0.12.1'
-time: package/libs/libjson-c/host-compile#12.84#1.99#28.93
+time: package/libs/libjson-c/host-compile#12.64#1.95#27.05

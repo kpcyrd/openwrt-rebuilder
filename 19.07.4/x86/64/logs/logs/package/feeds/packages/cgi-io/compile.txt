@@ -46,4 +46,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/cgi-io'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/cgi-io/ipkg-x86_64/cgi-io/usr/libexec/cgi-io: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/cgi-io/ipkg-x86_64/cgi-io into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/packages/cgi-io_19_x86_64.ipk
-time: package/feeds/packages/cgi-io/compile#0.82#0.25#1.39
+time: package/feeds/packages/cgi-io/compile#0.87#0.20#2.74

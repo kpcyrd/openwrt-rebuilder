@@ -1,8 +1,8 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://github.com/thom311/libnl/releases/download/libnl3_4_0/libnl-3.4.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   640  100   640    0     0  18285      0 --:--:-- --:--:-- --:--:-- 18285
-100  911k  100  911k    0     0  7121k      0 --:--:-- --:--:-- --:--:-- 7121k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   640  100   640    0     0   4923      0 --:--:-- --:--:-- --:--:--  4885
+100  911k  100  911k    0     0  4200k      0 --:--:-- --:--:-- --:--:-- 4200k
 
 Applying ./patches/100-build-add-Libs.private-field-in-libnl-pkg-config-file.patch using plaintext: 
 patching file libnl-3.0.pc.in
@@ -1397,4 +1397,4 @@ OpenWrt-libtool: install: warning: remember to run `libtool --finish /usr/lib/li
  /usr/bin/install -c -m 644 etc/pktloc etc/classid '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libnl-3.4.0/ipkg-install/etc/libnl'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libnl-3.4.0'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libnl-3.4.0'
-time: package/libs/libnl/compile#60.50#9.03#81.37
+time: package/libs/libnl/compile#59.21#9.54#81.00

@@ -504,4 +504,4 @@ make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule
 make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/e2fsprogs-1.44.5/lib/et'
 	SUBST compile_et
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/e2fsprogs-1.44.5/lib/et'
-time: package/utils/e2fsprogs/host-compile#10.26#3.96#23.62
+time: package/utils/e2fsprogs/host-compile#9.90#3.72#23.17

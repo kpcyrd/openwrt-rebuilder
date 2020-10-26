@@ -156,4 +156,4 @@ Install the project...
 -- Set runtime path of "/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/lib/libjson_script.so" to "/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/lib"
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/share/libubox/jshn.sh
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/libubox-2020-05-25-66195aee'
-time: package/libs/libubox/host-compile#4.94#1.06#8.53
+time: package/libs/libubox/host-compile#4.86#1.07#9.58

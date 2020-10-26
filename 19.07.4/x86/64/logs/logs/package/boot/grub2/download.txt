@@ -2,5 +2,5 @@ Makefile:92: WARNING: skipping grub2 -- package has no install section
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/grub/grub-2.02.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 5969k  100 5969k    0     0  8897k      0 --:--:-- --:--:-- --:--:-- 8883k
-time: package/boot/grub2/download#0.26#0.11#1.00
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 47 5969k   47 2863k    0     0  2466k      0  0:00:02  0:00:01  0:00:01 2464k 96 5969k   96 5775k    0     0  2019k      0  0:00:02  0:00:02 --:--:-- 2018k 96 5969k   96 5775k    0     0  1495k      0  0:00:03  0:00:03 --:--:-- 1495k 97 5969k   97 5791k    0     0  1295k      0  0:00:04  0:00:04 --:--:-- 1294k100 5969k  100 5969k    0     0  1306k      0  0:00:04  0:00:04 --:--:-- 1367k
+time: package/boot/grub2/download#0.26#0.10#4.88

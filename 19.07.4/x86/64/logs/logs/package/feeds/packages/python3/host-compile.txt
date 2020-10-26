@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://www.python.org/ftp/python/3.7.8/Python-3.7.8.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 58 16.5M   58 9857k    0     0  21.9M      0 --:--:-- --:--:-- --:--:-- 21.9M100 16.5M  100 16.5M    0     0  29.8M      0 --:--:-- --:--:-- --:--:-- 29.8M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 16.5M  100 16.5M    0     0  31.7M      0 --:--:-- --:--:-- --:--:-- 31.7M
 
 Applying ./patches/001-enable-zlib.patch using plaintext: 
 patching file Modules/Setup.dist
@@ -3841,9 +3841,9 @@ if test "xupgrade" != "xno"  ; then \
 	 ./python -E -m ensurepip \
 		$ensurepip --root=/ ; \
 fi
-Looking in links: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/tmp/tmp79pg273l
-Processing /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/tmp/tmp79pg273l/setuptools-47.1.0-py3-none-any.whl
-Processing /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/tmp/tmp79pg273l/pip-20.1.1-py2.py3-none-any.whl
+Looking in links: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/tmp/tmpswwxfds8
+Processing /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/tmp/tmpswwxfds8/setuptools-47.1.0-py3-none-any.whl
+Processing /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/tmp/tmpswwxfds8/pip-20.1.1-py2.py3-none-any.whl
 Installing collected packages: setuptools, pip
 Successfully installed pip-20.1.1 setuptools-47.1.0
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/Python-3.7.8'
@@ -3862,4 +3862,4 @@ patching file setuptools/command/easy_install.py
 
 Applying ./patches-pip/001-pep517-pyc-fix.patch using plaintext: 
 patching file pip/_vendor/pep517/wrappers.py
-time: package/feeds/packages/python3/host-compile#140.87#17.29#204.42
+time: package/feeds/packages/python3/host-compile#142.61#18.68#207.31

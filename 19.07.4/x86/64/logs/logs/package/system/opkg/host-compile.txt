@@ -124,4 +124,4 @@ make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 [100%] Built target opkg-cl
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/opkg-2020-05-07-f2166a89'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/opkg-2020-05-07-f2166a89'
-time: package/system/opkg/host-compile#7.42#1.31#18.87
+time: package/system/opkg/host-compile#7.35#1.40#17.94

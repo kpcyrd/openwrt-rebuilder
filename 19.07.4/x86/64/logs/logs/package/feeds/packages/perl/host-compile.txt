@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://cpan.metacpan.org/src/5.0/perl-5.28.1.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 11.7M    0 92418    0     0   543k      0  0:00:22 --:--:--  0:00:22  540k 96 11.7M   96 11.4M    0     0   9.7M      0  0:00:01  0:00:01 --:--:--  9.7M100 11.7M  100 11.7M    0     0   9.8M      0  0:00:01  0:00:01 --:--:--  9.8M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 11.7M    0 69242    0     0   386k      0  0:00:31 --:--:--  0:00:31  404k 95 11.7M   95 11.3M    0     0  9871k      0  0:00:01  0:00:01 --:--:-- 9939k100 11.7M  100 11.7M    0     0  9952k      0  0:00:01  0:00:01 --:--:--  9.7M
 
 Applying ./patches/010-musl-compat.patch using plaintext: 
 File perl.c is read-only; trying to patch anyway
@@ -697,7 +697,7 @@ What suffix should be used for the perl5 library man pages? [3]
  
 Figuring out host name...
 Maybe "hostname" will work...
-Your host name appears to be "fv-az139-602". Right? [y]  
+Your host name appears to be "fv-az50-806". Right? [y]  
 (You do not have fully-qualified names in the hosts database)
 (Attempting domain name extraction from /etc/resolv.conf)
 (No help from resolv.conf either -- attempting clever guess)
@@ -710,7 +710,7 @@ no easy means to double check it. The default value provided below
 is most probably close to reality but may not be valid from outside
 your organization...
 
-What is your e-mail address? [runner@fv-az139-602.(none)]  
+What is your e-mail address? [runner@fv-az50-806.(none)]  
 
 If you or somebody else will be maintaining perl at your site, please
 fill in the correct e-mail address here so that they may be contacted
@@ -718,7 +718,7 @@ if necessary. Currently, the "perlbug" program included with perl
 will send mail to this address in addition to perlbug@perl.org. You may
 enter "none" for no administrator.
 
-Perl administrator e-mail address [runner@fv-az139-602.(none)]  
+Perl administrator e-mail address [runner@fv-az50-806.(none)]  
  
 Do you want to use a version number suffix for installed binaries? This
 will install 'perl5.28.1' instead of 'perl', and likewise for other
@@ -3053,8 +3053,6 @@ Processing DNormalizationProps.txt
 Processing DAge.txt
 Processing HangulSyllableType.txt
 Processing auxiliary/WordBreakProperty.txt
-rm -f libperl.a
-/usr/bin/ar rc libperl.a op.o     perl.o  gv.o toke.o perly.o pad.o regcomp.o dump.o util.o mg.o reentr.o mro_core.o keywords.o hv.o av.o run.o pp_hot.o sv.o pp.o scope.o pp_ctl.o pp_sys.o doop.o doio.o regexec.o utf8.o taint.o deb.o universal.o globals.o perlio.o perlapi.o numeric.o mathoms.o locale.o pp_pack.o pp_sort.o caretx.o dquote.o time64.o   DynaLoader.o
 Processing auxiliary/GraphemeBreakProperty.txt
 Processing auxiliary/GCBTest.txt
 Processing auxiliary/SBTest.txt
@@ -3072,6 +3070,8 @@ Finishing processing Unicode properties
 Compiling Perl properties
 Creating Perl synonyms
 Writing tables
+rm -f libperl.a
+/usr/bin/ar rc libperl.a op.o     perl.o  gv.o toke.o perly.o pad.o regcomp.o dump.o util.o mg.o reentr.o mro_core.o keywords.o hv.o av.o run.o pp_hot.o sv.o pp.o scope.o pp_ctl.o pp_sys.o doop.o doio.o regexec.o utf8.o taint.o deb.o universal.o globals.o perlio.o perlapi.o numeric.o mathoms.o locale.o pp_pack.o pp_sort.o caretx.o dquote.o time64.o   DynaLoader.o
 Making pod file
 Making test script
 Updating 'mktables.lst'
@@ -4133,14 +4133,9 @@ Generating a Unix-style Makefile
 Writing Makefile for POSIX
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX'
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp" -noprototypes -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX/typemap'  POSIX.xs > POSIX.xsc
+./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/encoding/encoding.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 mv POSIX.xsc POSIX.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DSTRUCT_TM_HASZONE -DHINT_SC_EXIST -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.84\" -DXS_VERSION=\"1.84\"  "-I../.."   POSIX.c
-rm -f "../../lib/auto/POSIX/POSIX.a"
-/usr/bin/ar cr "../../lib/auto/POSIX/POSIX.a" POSIX.o
-: "../../lib/auto/POSIX/POSIX.a"
-chmod 755 ../../lib/auto/POSIX/POSIX.a
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX'
-./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/encoding/encoding.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 Generating a Unix-style Makefile
 Writing Makefile for PerlIO::encoding
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-encoding'
@@ -4156,19 +4151,24 @@ make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 Generating a Unix-style Makefile
 Writing Makefile for PerlIO::mmap
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap'
+rm -f "../../lib/auto/POSIX/POSIX.a"
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap/../../lib/ExtUtils/typemap'  mmap.xs > mmap.xsc
+/usr/bin/ar cr "../../lib/auto/POSIX/POSIX.a" POSIX.o
+: "../../lib/auto/POSIX/POSIX.a"
+chmod 755 ../../lib/auto/POSIX/POSIX.a
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX'
+./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/scalar/scalar.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 mv mmap.xsc mmap.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.016\" -DXS_VERSION=\"0.016\"  "-I../.."   mmap.c
+Generating a Unix-style Makefile
+Writing Makefile for PerlIO::scalar
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar'
 rm -f "../../lib/auto/PerlIO/mmap/mmap.a"
 /usr/bin/ar cr "../../lib/auto/PerlIO/mmap/mmap.a" mmap.o
 : "../../lib/auto/PerlIO/mmap/mmap.a"
 chmod 755 ../../lib/auto/PerlIO/mmap/mmap.a
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap'
-./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/scalar/scalar.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
-Generating a Unix-style Makefile
-Writing Makefile for PerlIO::scalar
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar'
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar/../../lib/ExtUtils/typemap'  scalar.xs > scalar.xsc
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap'
 mv scalar.xsc scalar.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.29\" -DXS_VERSION=\"0.29\"  "-I../.."   scalar.c
 rm -f "../../lib/auto/PerlIO/scalar/scalar.a"
@@ -4509,25 +4509,24 @@ Storable: determining recursion limit: 24817 passed, try more 24880 ...
 Storable: determining recursion limit: 24880 passed, try more 24912 ...
 Storable: determining recursion limit: 24912 passed, try more 24928 ...
 Storable: determining recursion limit: 24928 too big, try less 24920 ...
-Storable: determining recursion limit: 24920 too big, try less 24916 ...
-Storable: determining recursion limit: 24916 passed, try more 24918 ...
-Storable: determining recursion limit: 24918 passed, try more 24919 ...
-Storable: determining recursion limit: 24919 passed, try more 24919 ...
-MAX_DEPTH = 24919
-Storable: determining recursion limit: 12459 passed, try more 18689 ...
-Storable: determining recursion limit: 18689 too big, try less 15574 ...
-Storable: determining recursion limit: 15574 passed, try more 17131 ...
-Storable: determining recursion limit: 17131 too big, try less 16353 ...
-Storable: determining recursion limit: 16353 too big, try less 15964 ...
-Storable: determining recursion limit: 15964 passed, try more 16158 ...
-Storable: determining recursion limit: 16158 passed, try more 16255 ...
-Storable: determining recursion limit: 16255 passed, try more 16304 ...
-Storable: determining recursion limit: 16304 passed, try more 16328 ...
-Storable: determining recursion limit: 16328 passed, try more 16340 ...
-Storable: determining recursion limit: 16340 passed, try more 16346 ...
-Storable: determining recursion limit: 16346 passed, try more 16349 ...
-Storable: determining recursion limit: 16349 passed, try more 16351 ...
-Storable: determining recursion limit: 16351 passed, try more 16352 ...
+Storable: determining recursion limit: 24920 passed, try more 24924 ...
+Storable: determining recursion limit: 24924 passed, try more 24926 ...
+Storable: determining recursion limit: 24926 too big, try less 24925 ...
+Storable: determining recursion limit: 24925 too big, try less 24925 ...
+MAX_DEPTH = 24924
+Storable: determining recursion limit: 12462 passed, try more 18693 ...
+Storable: determining recursion limit: 18693 too big, try less 15578 ...
+Storable: determining recursion limit: 15578 passed, try more 17135 ...
+Storable: determining recursion limit: 17135 too big, try less 16357 ...
+Storable: determining recursion limit: 16357 too big, try less 15968 ...
+Storable: determining recursion limit: 15968 passed, try more 16162 ...
+Storable: determining recursion limit: 16162 passed, try more 16259 ...
+Storable: determining recursion limit: 16259 passed, try more 16308 ...
+Storable: determining recursion limit: 16308 passed, try more 16332 ...
+Storable: determining recursion limit: 16332 passed, try more 16344 ...
+Storable: determining recursion limit: 16344 passed, try more 16350 ...
+Storable: determining recursion limit: 16350 passed, try more 16353 ...
+Storable: determining recursion limit: 16353 too big, try less 16352 ...
 Storable: determining recursion limit: 16352 passed, try more 16352 ...
 MAX_DEPTH_HASH = 16352
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Storable'
@@ -6317,4 +6316,4 @@ To install the new 'perl' binary, call
     make -f Makefile.aperl map_clean
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/relink'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/relink'
-time: package/feeds/packages/perl/host-compile#184.64#23.83#275.91
+time: package/feeds/packages/perl/host-compile#185.94#24.25#278.38

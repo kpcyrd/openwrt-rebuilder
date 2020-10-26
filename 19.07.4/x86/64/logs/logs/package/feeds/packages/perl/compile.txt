@@ -480,8 +480,8 @@ Generating a Unix-style Makefile
 Writing Makefile for Pod::Html
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Pod-Html'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl cpan/Pod-Parser/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Pod-Html'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl cpan/Pod-Parser/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
 Generating a Unix-style Makefile
 Writing Makefile for Pod::Parser
 Writing MYMETA.yml and MYMETA.json
@@ -617,9 +617,6 @@ Generating a Unix-style Makefile
 Writing Makefile for Unicode::Normalize
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Unicode-Normalize'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl cpan/version/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
-Running pm_to_blib for cpan/version directly
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. -MExtUtils::Miniperl -e 'writemain(\"perlmain.c", @ARGV)' DynaLoader 
 Running Mkbootstrap for Normalize ()
 chmod 644 "Normalize.bs"
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Unicode-Normalize/../../lib/ExtUtils/typemap'  Normalize.xs > Normalize.xsc
@@ -632,6 +629,9 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
   
 chmod 755 ../../lib/auto/Unicode/Normalize/Normalize.so
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Unicode-Normalize'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl cpan/version/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
+Running pm_to_blib for cpan/version directly
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. -MExtUtils::Miniperl -e 'writemain(\"perlmain.c", @ARGV)' DynaLoader 
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. utils/Makefile.PL
 Extracting utils/Makefile (with variable substitutions)
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl cpan/IO-Compress/pm_to_blib  MAKE="make" LIBPERL_A=libperl.so
@@ -728,8 +728,6 @@ Processing extracted/DJoinGroup.txt
 Processing extracted/DJoinType.txt
 Processing Jamo.txt
 Processing UnicodeData.txt
-rm -f libperl.so
-x86_64-openwrt-linux-musl-gcc -o libperl.so -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro op.o     perl.o  gv.o toke.o perly.o pad.o regcomp.o dump.o util.o mg.o reentr.o mro_core.o keywords.o hv.o av.o run.o pp_hot.o sv.o pp.o scope.o pp_ctl.o pp_sys.o doop.o doio.o regexec.o utf8.o taint.o deb.o universal.o globals.o perlio.o perlapi.o numeric.o mathoms.o locale.o pp_pack.o pp_sort.o caretx.o dquote.o time64.o   DynaLoader.o -ldl -lm -lcrypt -lutil -lc 
 Processing ArabicShaping.txt
 Processing Blocks.txt
 Processing PropList.txt
@@ -765,6 +763,8 @@ Writing tables
 Making pod file
 Making test script
 Updating 'mktables.lst'
+rm -f libperl.so
+x86_64-openwrt-linux-musl-gcc -o libperl.so -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro op.o     perl.o  gv.o toke.o perly.o pad.o regcomp.o dump.o util.o mg.o reentr.o mro_core.o keywords.o hv.o av.o run.o pp_hot.o sv.o pp.o scope.o pp_ctl.o pp_sys.o doop.o doio.o regexec.o utf8.o taint.o deb.o universal.o globals.o perlio.o perlapi.o numeric.o mathoms.o locale.o pp_pack.o pp_sort.o caretx.o dquote.o time64.o   DynaLoader.o -ldl -lm -lcrypt -lutil -lc 
 x86_64-openwrt-linux-musl-gcc -o perl -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro -fPIC -rdynamic -Wl,-rpath,/usr/lib/perl5/5.28/CORE perlmain.o   libperl.so `cat ext.libs` -ldl -lm -lcrypt -lutil -lc 
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/B/B.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Generating a Unix-style Makefile
@@ -777,20 +777,20 @@ chmod 644 "B.bs"
 mv B.xsc B.c
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/B/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- B.bs ../../lib/auto/B/B.bs 644
 x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.74\" -DXS_VERSION=\"1.74\" -fPIC "-I../.."   B.c
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Compress/Raw/Bzip2/Bzip2.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
-Generating a Unix-style Makefile
-Writing Makefile for Compress::Raw::Bzip2
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Compress-Raw-Bzip2'
 rm -f ../../lib/auto/B/B.so
 x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  B.o  -o ../../lib/auto/B/B.so  \
       \
   
 chmod 755 ../../lib/auto/B/B.so
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/B'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Compress/Raw/Bzip2/Bzip2.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+Generating a Unix-style Makefile
+Writing Makefile for Compress::Raw::Bzip2
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Compress-Raw-Bzip2'
 Running Mkbootstrap for Bzip2 ()
-"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Compress-Raw-Bzip2/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Compress-Raw-Bzip2/typemap'  Bzip2.xs > Bzip2.xsc
 chmod 644 "Bzip2.bs"
+"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Compress-Raw-Bzip2/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Compress-Raw-Bzip2/typemap'  Bzip2.xs > Bzip2.xsc
 x86_64-openwrt-linux-musl-gcc -c  -I. -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.074\" -DXS_VERSION=\"2.074\" -fPIC "-I../.."  -Wall -Wno-comment  -DBZ_NO_STDIO  blocksort.c
 mv Bzip2.xsc Bzip2.c
 x86_64-openwrt-linux-musl-gcc -c  -I. -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.074\" -DXS_VERSION=\"2.074\" -fPIC "-I../.."  -Wall -Wno-comment  -DBZ_NO_STDIO  bzlib.c
@@ -1297,24 +1297,18 @@ Generating a Unix-style Makefile
 Writing Makefile for Data::Dumper
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Data-Dumper'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Devel/PPPort/PPPort.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+Setting license tag...
 Running Mkbootstrap for Dumper ()
+Generating a Unix-style Makefile
+Writing Makefile for Devel::PPPort
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Devel-PPPort'
 chmod 644 "Dumper.bs"
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Data-Dumper/../../lib/ExtUtils/typemap'  Dumper.xs > Dumper.xsc
 mv Dumper.xsc Dumper.c
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Data-Dumper/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Dumper.bs ../../lib/auto/Data/Dumper/Dumper.bs 644
 x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.170\" -DXS_VERSION=\"2.170\" -fPIC "-I../.."   Dumper.c
-rm -f ../../lib/auto/Data/Dumper/Dumper.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Dumper.o  -o ../../lib/auto/Data/Dumper/Dumper.so  \
-      \
-  
-chmod 755 ../../lib/auto/Data/Dumper/Dumper.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Data-Dumper'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Devel/PPPort/PPPort.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
-Setting license tag...
-Generating a Unix-style Makefile
-Writing Makefile for Devel::PPPort
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Devel-PPPort'
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" PPPort_pm.PL PPPort.pm
 including ppphdoc
 including ppphbin
@@ -1391,19 +1385,19 @@ adding XS code from parts/inc/warn
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp" -noprototypes -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Devel-PPPort/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Devel-PPPort/typemap'  RealPPPort.xs > RealPPPort.xsc
 mv RealPPPort.xsc RealPPPort.c
 x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"3.40\" -DXS_VERSION=\"3.40\" -fPIC "-I../.."   module2.c
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"3.40\" -DXS_VERSION=\"3.40\" -fPIC "-I../.."   module3.c
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"3.40\" -DXS_VERSION=\"3.40\" -fPIC "-I../.."   RealPPPort.c
-rm -f ../../lib/auto/Devel/PPPort/PPPort.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  RealPPPort.o module2.o module3.o  -o ../../lib/auto/Devel/PPPort/PPPort.so  \
+rm -f ../../lib/auto/Data/Dumper/Dumper.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Dumper.o  -o ../../lib/auto/Data/Dumper/Dumper.so  \
       \
   
-chmod 755 ../../lib/auto/Devel/PPPort/PPPort.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Devel-PPPort'
+chmod 755 ../../lib/auto/Data/Dumper/Dumper.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Data-Dumper'
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Devel/Peek/Peek.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"3.40\" -DXS_VERSION=\"3.40\" -fPIC "-I../.."   module3.c
 Generating a Unix-style Makefile
 Writing Makefile for Devel::Peek
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Devel-Peek'
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"3.40\" -DXS_VERSION=\"3.40\" -fPIC "-I../.."   RealPPPort.c
 Running Mkbootstrap for Peek ()
 chmod 644 "Peek.bs"
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Devel-Peek/../../lib/ExtUtils/typemap'  Peek.xs > Peek.xsc
@@ -1439,21 +1433,19 @@ Generating a Unix-style Makefile
 Writing Makefile for Digest::SHA
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA'
+rm -f ../../lib/auto/Devel/PPPort/PPPort.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  RealPPPort.o module2.o module3.o  -o ../../lib/auto/Devel/PPPort/PPPort.so  \
+      \
+  
+chmod 755 ../../lib/auto/Devel/PPPort/PPPort.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Devel-PPPort'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Encode/Encode.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Running Mkbootstrap for SHA ()
 chmod 644 "SHA.bs"
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA/typemap'  SHA.xs > SHA.xsc
 mv SHA.xsc SHA.c
 cp shasum blib/script/shasum
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/shasum
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- SHA.bs ../../lib/auto/Digest/SHA/SHA.bs 644
-x86_64-openwrt-linux-musl-gcc -c  -I. -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"6.01\" -DXS_VERSION=\"6.01\" -fPIC "-I../.."   SHA.c
-rm -f ../../lib/auto/Digest/SHA/SHA.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  SHA.o  -o ../../lib/auto/Digest/SHA/SHA.so  \
-      \
-  
-chmod 755 ../../lib/auto/Digest/SHA/SHA.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Encode/Encode.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Writing MYMETA.yml and MYMETA.json
 Writing MYMETA.yml and MYMETA.json
 Writing MYMETA.yml and MYMETA.json
@@ -1466,6 +1458,8 @@ Generating a Unix-style Makefile
 Writing Makefile for Encode
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode'
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- SHA.bs ../../lib/auto/Digest/SHA/SHA.bs 644
+x86_64-openwrt-linux-musl-gcc -c  -I. -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"6.01\" -DXS_VERSION=\"6.01\" -fPIC "-I../.."   SHA.c
 Running Mkbootstrap for Encode ()
 chmod 644 "Encode.bs"
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/../../lib/ExtUtils/typemap'  Encode.xs > Encode.xsc
@@ -1478,26 +1472,22 @@ Reading ascii-ctrl (ascii-ctrl)
 Reading null (null)
 x86_64-openwrt-linux-musl-gcc -c  -I./Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.97\" -DXS_VERSION=\"2.97\" -fPIC "-I../.."   encengine.c
 cp bin/enc2xs blib/script/enc2xs
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Fcntl/Fcntl.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/enc2xs
 cp bin/encguess blib/script/encguess
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/encguess
-Generating a Unix-style Makefile
-Writing Makefile for Fcntl
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl'
 cp bin/piconv blib/script/piconv
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/piconv
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/Byte'
-Running Mkbootstrap for Fcntl ()
-chmod 644 "Fcntl.bs"
-"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp" -noprototypes -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl/../../lib/ExtUtils/typemap'  Fcntl.xs > Fcntl.xsc
 Running Mkbootstrap for Byte ()
+rm -f ../../lib/auto/Digest/SHA/SHA.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  SHA.o  -o ../../lib/auto/Digest/SHA/SHA.so  \
+      \
+  
 chmod 644 "Byte.bs"
-mv Fcntl.xsc Fcntl.c
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Fcntl.bs ../../lib/auto/Fcntl/Fcntl.bs 644
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -"O" -o byte_t.c -f byte_t.fnm
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.13\" -DXS_VERSION=\"1.13\" -fPIC "-I../.."   Fcntl.c
+chmod 755 ../../lib/auto/Digest/SHA/SHA.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Digest-SHA'
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Encode.bs ../../lib/auto/Encode/Encode.bs 644
 Reading iso-8859-2 (iso-8859-2)
 Reading iso-8859-3 (iso-8859-3)
 Reading iso-8859-4 (iso-8859-4)
@@ -1564,16 +1554,8 @@ Reading nextstep (nextstep)
 Reading viscii (viscii)
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/Byte/../../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Byte.bs ../../../lib/auto/Encode/Byte/Byte.bs 644
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" "../../../lib/ExtUtils/xsubpp"  -nolinenumbers -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/Byte/../../../lib/ExtUtils/typemap'  Byte.xs > Byte.xsc
-rm -f ../../lib/auto/Fcntl/Fcntl.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Fcntl.o  -o ../../lib/auto/Fcntl/Fcntl.so  \
-      \
-  
-chmod 755 ../../lib/auto/Fcntl/Fcntl.so
 mv Byte.xsc Byte.c
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.04\" -DXS_VERSION=\"2.04\" -fPIC "-I../../.."   byte_t.c
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl'
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Encode.bs ../../lib/auto/Encode/Encode.bs 644
-x86_64-openwrt-linux-musl-gcc -c  -I./Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.97\" -DXS_VERSION=\"2.97\" -fPIC "-I../.."   Encode.c
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.04\" -DXS_VERSION=\"2.04\" -fPIC "-I../../.."   Byte.c
 rm -f ../../../lib/auto/Encode/Byte/Byte.so
 x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Byte.o byte_t.o  -o ../../../lib/auto/Encode/Byte/Byte.so  \
@@ -1581,65 +1563,26 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
   
 chmod 755 ../../../lib/auto/Encode/Byte/Byte.so
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/Byte'
+x86_64-openwrt-linux-musl-gcc -c  -I./Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.97\" -DXS_VERSION=\"2.97\" -fPIC "-I../.."   Encode.c
 x86_64-openwrt-linux-musl-gcc -c  -I./Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.97\" -DXS_VERSION=\"2.97\" -fPIC "-I../.."   def_t.c
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/File/DosGlob/DosGlob.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
-Generating a Unix-style Makefile
-Writing Makefile for File::DosGlob
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob'
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/CN'
 Running Mkbootstrap for CN ()
 chmod 644 "CN.bs"
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o cp_00_t.c -f cp_00_t.fnm
-Running Mkbootstrap for DosGlob ()
-chmod 644 "DosGlob.bs"
-"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob/../../lib/ExtUtils/typemap'  DosGlob.xs > DosGlob.xsc
-mv DosGlob.xsc DosGlob.c
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- DosGlob.bs ../../lib/auto/File/DosGlob/DosGlob.bs 644
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.12\" -DXS_VERSION=\"1.12\" -fPIC "-I../.."   DosGlob.c
-rm -f ../../lib/auto/File/DosGlob/DosGlob.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  DosGlob.o  -o ../../lib/auto/File/DosGlob/DosGlob.so  \
-      \
-  
-chmod 755 ../../lib/auto/File/DosGlob/DosGlob.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob'
-"../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o eu_01_t.c -f eu_01_t.fnm
 Reading cp936 (cp936)
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/File/Glob/Glob.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+"../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o eu_01_t.c -f eu_01_t.fnm
 Reading euc-cn (euc-cn)
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o gb_02_t.c -f gb_02_t.fnm
-Generating a Unix-style Makefile
-Writing Makefile for File::Glob
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob'
 Reading gb12345-raw (gb12345-raw)
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o gb_03_t.c -f gb_03_t.fnm
-Running Mkbootstrap for Glob ()
-chmod 644 "Glob.bs"
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.31\" -DXS_VERSION=\"1.31\" -fPIC "-I../.."   bsd_glob.c
 Reading gb2312-raw (gb2312-raw)
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o ir_04_t.c -f ir_04_t.fnm
 Reading iso-ir-165 (iso-ir-165)
 "../../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../../lib" ../bin/enc2xs -"Q" -o ma_05_t.c -f ma_05_t.fnm
-"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob/../../lib/ExtUtils/typemap'  Glob.xs > Glob.xsc
 Reading MacChineseSimp (MacChineseSimp)
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.03\" -DXS_VERSION=\"2.03\" -fPIC "-I../../.."   cp_00_t.c
-mv Glob.xsc Glob.c
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Glob.bs ../../lib/auto/File/Glob/Glob.bs 644
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.31\" -DXS_VERSION=\"1.31\" -fPIC "-I../.."   Glob.c
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.03\" -DXS_VERSION=\"2.03\" -fPIC "-I../../.."   eu_01_t.c
-rm -f ../../lib/auto/File/Glob/Glob.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  bsd_glob.o Glob.o  -o ../../lib/auto/File/Glob/Glob.so  \
-      \
-  
-chmod 755 ../../lib/auto/File/Glob/Glob.so
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.03\" -DXS_VERSION=\"2.03\" -fPIC "-I../../.."   gb_02_t.c
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob'
-rm -f ../../lib/auto/Encode/Encode.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Encode.o def_t.o encengine.o  -o ../../lib/auto/Encode/Encode.so  \
-      \
-  
-chmod 755 ../../lib/auto/Encode/Encode.so
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.03\" -DXS_VERSION=\"2.03\" -fPIC "-I../../.."   gb_03_t.c
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.03\" -DXS_VERSION=\"2.03\" -fPIC "-I../../.."   ir_04_t.c
 x86_64-openwrt-linux-musl-gcc -c -I./Encode  -I../Encode -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.03\" -DXS_VERSION=\"2.03\" -fPIC "-I../../.."   ma_05_t.c
@@ -1653,6 +1596,11 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
   
 chmod 755 ../../../lib/auto/Encode/CN/CN.so
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/CN'
+rm -f ../../lib/auto/Encode/Encode.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Encode.o def_t.o encengine.o  -o ../../lib/auto/Encode/Encode.so  \
+      \
+  
+chmod 755 ../../lib/auto/Encode/Encode.so
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/EBCDIC'
 Running Mkbootstrap for EBCDIC ()
 chmod 644 "EBCDIC.bs"
@@ -1803,6 +1751,58 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
 chmod 755 ../../../lib/auto/Encode/Unicode/Unicode.so
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode/Unicode'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Encode'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Fcntl/Fcntl.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+Generating a Unix-style Makefile
+Writing Makefile for Fcntl
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl'
+Running Mkbootstrap for Fcntl ()
+chmod 644 "Fcntl.bs"
+"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp" -noprototypes -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl/../../lib/ExtUtils/typemap'  Fcntl.xs > Fcntl.xsc
+mv Fcntl.xsc Fcntl.c
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Fcntl.bs ../../lib/auto/Fcntl/Fcntl.bs 644
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.13\" -DXS_VERSION=\"1.13\" -fPIC "-I../.."   Fcntl.c
+rm -f ../../lib/auto/Fcntl/Fcntl.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Fcntl.o  -o ../../lib/auto/Fcntl/Fcntl.so  \
+      \
+  
+chmod 755 ../../lib/auto/Fcntl/Fcntl.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Fcntl'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/File/DosGlob/DosGlob.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+Generating a Unix-style Makefile
+Writing Makefile for File::DosGlob
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob'
+Running Mkbootstrap for DosGlob ()
+chmod 644 "DosGlob.bs"
+"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob/../../lib/ExtUtils/typemap'  DosGlob.xs > DosGlob.xsc
+mv DosGlob.xsc DosGlob.c
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- DosGlob.bs ../../lib/auto/File/DosGlob/DosGlob.bs 644
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.12\" -DXS_VERSION=\"1.12\" -fPIC "-I../.."   DosGlob.c
+rm -f ../../lib/auto/File/DosGlob/DosGlob.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  DosGlob.o  -o ../../lib/auto/File/DosGlob/DosGlob.so  \
+      \
+  
+chmod 755 ../../lib/auto/File/DosGlob/DosGlob.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-DosGlob'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/File/Glob/Glob.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+Generating a Unix-style Makefile
+Writing Makefile for File::Glob
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob'
+Running Mkbootstrap for Glob ()
+chmod 644 "Glob.bs"
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.31\" -DXS_VERSION=\"1.31\" -fPIC "-I../.."   bsd_glob.c
+"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob/../../lib/ExtUtils/typemap'  Glob.xs > Glob.xsc
+mv Glob.xsc Glob.c
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Glob.bs ../../lib/auto/File/Glob/Glob.bs 644
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.31\" -DXS_VERSION=\"1.31\" -fPIC "-I../.."   Glob.c
+rm -f ../../lib/auto/File/Glob/Glob.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  bsd_glob.o Glob.o  -o ../../lib/auto/File/Glob/Glob.so  \
+      \
+  
+chmod 755 ../../lib/auto/File/Glob/Glob.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/File-Glob'
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Filter/Util/Call/Call.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Generating a Unix-style Makefile
 Writing Makefile for Filter::Util::Call
@@ -2023,8 +2023,8 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
       \
   
 chmod 755 ../../lib/auto/Opcode/Opcode.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Opcode'
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/POSIX/POSIX.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/Opcode'
 Warning (mostly harmless): No library found for -lm
 Warning (mostly harmless): No library found for -lposix
 Warning (mostly harmless): No library found for -lcposix
@@ -2372,11 +2372,22 @@ You seem to have subsecond timestamp setting.
 Looking for stat() subsecond timestamps...
 Trying struct stat st_atimespec.tv_nsec...NOT found.
 Trying struct stat st_atimensec...NOT found.
-Trying struct stat st_atime_n...NOT found.
-Trying struct stat st_atim.tv_nsec...found.
-Trying struct stat st_uatime...NOT found.
+Trying struct stat st_atime_n...LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Time/Piece/Piece.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+NOT found.
+Trying struct stat st_atim.tv_nsec...Generating a Unix-style Makefile
+Writing Makefile for Time::Piece
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece'
+found.
+Trying struct stat st_uatime...Running Mkbootstrap for Piece ()
+chmod 644 "Piece.bs"
+"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece/../../lib/ExtUtils/typemap'  Piece.xs > Piece.xsc
+mv Piece.xsc Piece.c
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Piece.bs ../../lib/auto/Time/Piece/Piece.bs 644
+NOT found.
 You seem to have subsecond timestamp reading.
 (Your struct stat has them, but the filesystems must help.)
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.3204\" -DXS_VERSION=\"1.3204\" -fPIC "-I../.."   Piece.c
 Warning (mostly harmless): No library found for -lrt
 Generating a Unix-style Makefile
 Writing Makefile for Time::HiRes
@@ -2388,29 +2399,18 @@ chmod 644 "HiRes.bs"
 mv HiRes.xsc HiRes.c
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Time-HiRes/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- HiRes.bs ../../lib/auto/Time/HiRes/HiRes.bs 644
 x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.9759\" -DXS_VERSION=\"1.9759\" -fPIC "-I../.."  -DTIME_HIRES_NANOSLEEP -DTIME_HIRES_CLOCKID_T -DHAS_FUTIMENS -DHAS_UTIMENSAT -DTIME_HIRES_UTIME -DTIME_HIRES_STAT_XTIM -DTIME_HIRES_STAT=4 -DATLEASTFIVEOHOHFIVE HiRes.c
-rm -f ../../lib/auto/Time/HiRes/HiRes.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  HiRes.o  -o ../../lib/auto/Time/HiRes/HiRes.so  \
-      \
-  
-chmod 755 ../../lib/auto/Time/HiRes/HiRes.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Time-HiRes'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Time/Piece/Piece.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
-Generating a Unix-style Makefile
-Writing Makefile for Time::Piece
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece'
-Running Mkbootstrap for Piece ()
-chmod 644 "Piece.bs"
-"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece/../../lib/ExtUtils/typemap'  Piece.xs > Piece.xsc
-mv Piece.xsc Piece.c
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- Piece.bs ../../lib/auto/Time/Piece/Piece.bs 644
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.3204\" -DXS_VERSION=\"1.3204\" -fPIC "-I../.."   Piece.c
 rm -f ../../lib/auto/Time/Piece/Piece.so
 x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  Piece.o  -o ../../lib/auto/Time/Piece/Piece.so  \
       \
   
 chmod 755 ../../lib/auto/Time/Piece/Piece.so
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Time-Piece'
+rm -f ../../lib/auto/Time/HiRes/HiRes.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  HiRes.o  -o ../../lib/auto/Time/HiRes/HiRes.so  \
+      \
+  
+chmod 755 ../../lib/auto/Time/HiRes/HiRes.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Time-HiRes'
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/Unicode/Collate/Collate.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Making header files for XS...
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/cpan/Unicode-Collate'
@@ -2512,15 +2512,26 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
 chmod 755 ../../lib/auto/arybase/arybase.so
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/arybase'
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/attributes/attributes.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/mro/mro.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Generating a Unix-style Makefile
 Writing Makefile for attributes
 Writing MYMETA.yml and MYMETA.json
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/attributes'
+Generating a Unix-style Makefile
+Writing Makefile for mro
+Writing MYMETA.yml and MYMETA.json
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/mro'
 Running Mkbootstrap for attributes ()
+Running Mkbootstrap for mro ()
 chmod 644 "attributes.bs"
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/attributes/../../lib/ExtUtils/typemap'  attributes.xs > attributes.xsc
+chmod 644 "mro.bs"
+"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/mro/../../lib/ExtUtils/typemap'  mro.xs > mro.xsc
 mv attributes.xsc attributes.c
+mv mro.xsc mro.c
+/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/mro/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- mro.bs ../../lib/auto/mro/mro.bs 644
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/attributes/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- attributes.bs ../../lib/auto/attributes/attributes.bs 644
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.22\" -DXS_VERSION=\"1.22\" -fPIC "-I../.."   mro.c
 x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.33\" -DXS_VERSION=\"0.33\" -fPIC "-I../.."   attributes.c
 rm -f ../../lib/auto/attributes/attributes.so
 x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  attributes.o  -o ../../lib/auto/attributes/attributes.so  \
@@ -2528,17 +2539,6 @@ x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/ope
   
 chmod 755 ../../lib/auto/attributes/attributes.so
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/attributes'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/mro/mro.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
-Generating a Unix-style Makefile
-Writing Makefile for mro
-Writing MYMETA.yml and MYMETA.json
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/mro'
-Running Mkbootstrap for mro ()
-chmod 644 "mro.bs"
-"../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/mro/../../lib/ExtUtils/typemap'  mro.xs > mro.xsc
-mv mro.xsc mro.c
-/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/mro/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- mro.bs ../../lib/auto/mro/mro.bs 644
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.22\" -DXS_VERSION=\"1.22\" -fPIC "-I../.."   mro.c
 rm -f ../../lib/auto/mro/mro.so
 x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  mro.o  -o ../../lib/auto/mro/mro.so  \
       \
@@ -2564,6 +2564,14 @@ cp ../../dquote.c dquote.c
 mv re.xsc re.c
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/re/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command::MM -e 'cp_nonempty' -- re.bs ../../lib/auto/re/re.bs 644
 x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\" -fPIC "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re_exec.c
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\" -fPIC "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re_comp.c
+x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\" -fPIC "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re.c
+rm -f ../../lib/auto/re/re.so
+x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  re_exec.o re_comp.o re.o  -o ../../lib/auto/re/re.so  \
+      \
+  
+chmod 755 ../../lib/auto/re/re.so
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/re'
 LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 ./miniperl -Ilib -I. make_ext.pl lib/auto/threads/threads.so  MAKE="make" LIBPERL_A=libperl.so LINKTYPE=dynamic
 Generating a Unix-style Makefile
 Writing Makefile for threads
@@ -2614,7 +2622,6 @@ Extracting instmodsh (with variable substitutions)
 ../miniperl -I../lib json_pp.PL
 Extracting json_pp (with variable substitutions)
 ../miniperl -I../lib perlbug.PL
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\" -fPIC "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re_comp.c
 Extracting perlbug (with variable substitutions)
 ../miniperl -I../lib perldoc.PL
 Extracting "perldoc" (with variable substitutions)
@@ -2649,21 +2656,14 @@ Extracting pod2html (with variable substitutions)
 ../miniperl -I../lib zipdetails.PL
 Extracting zipdetails (with variable substitutions)
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/utils'
-x86_64-openwrt-linux-musl-gcc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/include -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include/fortify -I/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/include -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\" -fPIC "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re.c
 cd dist/Storable ; LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1 make lib/Storable/Limit.pm
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Storable'
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Storable/../../../../../../staging_dir/hostpkg/usr/bin/perl "-I../../lib" -MExtUtils::Command -e 'mkpath' -- ../../lib
 "../../../../../../staging_dir/hostpkg/usr/bin/perl" "-I../../lib" stacksize --core
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/dist/Storable'
+LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1  ./miniperl -Ilib -I. -f pod/buildtoc -q
 test -d lib/Storable || mkdir lib/Storable
 cp dist/Storable/lib/Storable/Limit.pm lib/Storable/Limit.pm
-rm -f ../../lib/auto/re/re.so
-x86_64-openwrt-linux-musl-gcc  -shared -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/usr/lib -L/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/lib -znow -zrelro  re_exec.o re_comp.o re.o  -o ../../lib/auto/re/re.so  \
-      \
-  
-chmod 755 ../../lib/auto/re/re.so
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1/ext/re'
-LD_LIBRARY_PATH=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1  ./miniperl -Ilib -I. -f pod/buildtoc -q
  
 	Everything is up to date. Type 'make test' to run test suite.
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1'
@@ -5587,4 +5587,4 @@ WARNING: You've never run 'make test'!!!  (Installing anyway.)
   /xsubpp.0
   /zipdetails.0
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/perl/perl-5.28.1'
-time: package/feeds/packages/perl/compile#210.52#20.25#262.68
+time: package/feeds/packages/perl/compile#218.56#22.08#275.32

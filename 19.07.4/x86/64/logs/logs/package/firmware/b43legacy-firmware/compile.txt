@@ -69,4 +69,4 @@ Deleting b0g0initvals5.fw
 Deleting pcm5.fw
 Deleting ucode11.fw
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/b43legacy-firmware-3.130.20.0/ipkg-x86_64/b43legacy-firmware into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/b43legacy-firmware_3.130.20.0-1_x86_64.ipk
-time: package/firmware/b43legacy-firmware/compile#0.30#0.05#1.29
+time: package/firmware/b43legacy-firmware/compile#0.31#0.04#1.46

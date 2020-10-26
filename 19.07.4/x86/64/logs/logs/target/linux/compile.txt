@@ -1360,4 +1360,4 @@ net/sched/Kconfig:44: warning: menuconfig statement without prompt
 .config:3175:warning: override: M586MMX changes choice state
 .config:5827:warning: override: SPARSEMEM_MANUAL changes choice state
 make[4]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
-time: target/linux/compile#1286.19#171.50#753.75
+time: target/linux/compile#1361.55#194.43#802.36

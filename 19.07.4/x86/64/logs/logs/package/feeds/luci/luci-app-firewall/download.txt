@@ -1,1 +1,1 @@
-time: package/feeds/luci/luci-app-firewall/download#1.33#0.52#2.97
+time: package/feeds/luci/luci-app-firewall/download#1.30#0.48#2.94

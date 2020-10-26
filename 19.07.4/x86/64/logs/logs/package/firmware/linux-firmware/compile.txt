@@ -30,4 +30,4 @@ Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebui
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-firmware-20190416/ipkg-x86_64/libertas-spi-firmware into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/libertas-spi-firmware_20190416-1_x86_64.ipk
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-firmware-20190416/ipkg-x86_64/brcmfmac-firmware-usb into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/brcmfmac-firmware-usb_20190416-1_x86_64.ipk
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-firmware-20190416/ipkg-x86_64/bnx2-firmware into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/bnx2-firmware_20190416-1_x86_64.ipk
-time: package/firmware/linux-firmware/compile#14.16#2.98#26.61
+time: package/firmware/linux-firmware/compile#12.99#3.07#24.34

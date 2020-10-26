@@ -18,4 +18,4 @@ make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/macremapper-1.1.0/kernelmod'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/macremapper-1.1.0/ipkg-x86_64/kmod-macremapper/lib/modules/4.14.195/macremapper.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/macremapper-1.1.0/ipkg-x86_64/kmod-macremapper into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-macremapper_4.14.195-x86-1_x86_64.ipk
-time: package/feeds/packages/macremapper/compile#3.07#0.75#4.87
+time: package/feeds/packages/macremapper/compile#3.37#0.66#5.05

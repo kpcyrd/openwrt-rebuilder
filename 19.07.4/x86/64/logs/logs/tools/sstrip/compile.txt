@@ -1,1 +1,1 @@
-time: tools/sstrip/compile#0.03#0.02#0.09
+time: tools/sstrip/compile#0.04#0.01#0.09

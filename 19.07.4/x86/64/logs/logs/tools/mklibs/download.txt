@@ -7,5 +7,5 @@ Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/mklibs_0.1.35.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24121  100 24121    0     0  38470      0 --:--:-- --:--:-- --:--:-- 38470
-time: tools/mklibs/download#0.08#0.05#1.08
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24121  100 24121    0     0  45255      0 --:--:-- --:--:-- --:--:-- 45340
+time: tools/mklibs/download#0.08#0.03#0.98

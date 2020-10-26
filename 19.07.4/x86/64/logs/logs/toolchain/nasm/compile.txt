@@ -331,4 +331,4 @@ mkdir -p /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_d
 /usr/bin/install -c -m 644 ./nasm.1 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/share/man/man1/nasm.1
 /usr/bin/install -c -m 644 ./ndisasm.1 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/share/man/man1/ndisasm.1
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/toolchain-x86_64_gcc-7.5.0_musl/nasm-2.14'
-time: toolchain/nasm/compile#18.72#3.74#30.25
+time: toolchain/nasm/compile#18.52#3.86#31.08

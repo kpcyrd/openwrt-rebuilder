@@ -21,4 +21,4 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 8c21f4a Force RS-485 mode in driver
 Packing checkout...
-time: package/feeds/packages/xr_usb_serial_common/download#0.32#0.08#0.63
+time: package/feeds/packages/xr_usb_serial_common/download#0.31#0.10#1.00

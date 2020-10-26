@@ -7,4 +7,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/linux-4.14.195'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/spi-gpio-custom/ipkg-x86_64/kmod-spi-gpio-custom/lib/modules/4.14.195/spi-gpio-custom.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/spi-gpio-custom/ipkg-x86_64/kmod-spi-gpio-custom into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-spi-gpio-custom_4.14.195-1_x86_64.ipk
-time: package/kernel/spi-gpio-custom/compile#1.45#0.49#3.29
+time: package/kernel/spi-gpio-custom/compile#1.56#0.47#4.97

@@ -1,6 +1,6 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure http://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.bz2
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    85  100    85    0     0   2428      0 --:--:-- --:--:-- --:--:--  2428
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  156k  100  156k    0     0   761k      0 --:--:-- --:--:-- --:--:-- 1107k
-time: tools/patchelf/download#0.08#0.01#0.32
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    85  100    85    0     0    923      0 --:--:-- --:--:-- --:--:--   913
+100  156k  100  156k    0     0  1084k      0 --:--:-- --:--:-- --:--:-- 1084k
+time: tools/patchelf/download#0.07#0.03#0.24

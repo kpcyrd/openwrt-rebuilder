@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://cxx.uclibc.org/src/uClibc++-0.2.5.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 90  228k   90  208k    0     0   235k      0 --:--:-- --:--:-- --:--:--  235k100  228k  100  228k    0     0   259k      0 --:--:-- --:--:-- --:--:--  259k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  228k  100  228k    0     0   201k      0  0:00:01  0:00:01 --:--:--  201k
 
 Applying ./patches/001-no-ansi.patch using plaintext: 
 patching file Rules.mak
@@ -173,4 +173,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
   INSTALL libuClibc++.a
   INSTALL libuClibc++-0.2.5.so libuClibc++.so.0 libuClibc++.so
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uClibc++-0.2.5'
-time: package/libs/uclibc++/compile#6.00#0.77#9.58
+time: package/libs/uclibc++/compile#6.35#0.94#11.00

@@ -1,5 +1,5 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/patch/patch-2.7.6.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  765k  100  765k    0     0  2231k      0 --:--:-- --:--:-- --:--:-- 2231k
-time: tools/patch/download#0.08#0.03#0.44
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  765k  100  765k    0     0  2114k      0 --:--:-- --:--:-- --:--:-- 2114k
+time: tools/patch/download#0.09#0.02#0.46

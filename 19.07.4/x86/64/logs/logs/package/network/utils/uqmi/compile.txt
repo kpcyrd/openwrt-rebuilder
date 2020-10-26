@@ -24,26 +24,26 @@ CMake Warning:
 make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-Scanning dependencies of target gen-errors
-make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-[  3%] Generating qmi-errors.c
-make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-[  3%] Built target gen-errors
-make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 Scanning dependencies of target gen-headers
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-[  6%] Generating qmi-message-ctl.h
-[  9%] Generating qmi-message-dms.h
-[ 12%] Generating qmi-message-nas.h
-[ 16%] Generating qmi-message-pds.h
-[ 19%] Generating qmi-message-wds.h
-[ 22%] Generating qmi-message-wms.h
-[ 25%] Generating qmi-message-wda.h
-[ 29%] Generating qmi-message-uim.h
+[  3%] Generating qmi-message-ctl.h
+[  6%] Generating qmi-message-dms.h
+[  9%] Generating qmi-message-nas.h
+[ 12%] Generating qmi-message-pds.h
+[ 16%] Generating qmi-message-wds.h
+[ 19%] Generating qmi-message-wms.h
+[ 22%] Generating qmi-message-wda.h
+[ 25%] Generating qmi-message-uim.h
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-[ 29%] Built target gen-headers
+[ 25%] Built target gen-headers
+make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
+Scanning dependencies of target gen-errors
+make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
+make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
+[ 29%] Generating qmi-errors.c
+make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
+[ 29%] Built target gen-errors
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 [ 32%] Generating qmi-message-uim.c
 [ 35%] Generating qmi-message-ctl.c
@@ -78,10 +78,10 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-[  3%] Built target gen-errors
+[ 25%] Built target gen-headers
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
-[ 29%] Built target gen-headers
+[ 29%] Built target gen-errors
 make[5]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 [100%] Built target uqmi
@@ -92,4 +92,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713/ipkg-x86_64/uqmi/sbin/uqmi: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uqmi-2019-06-27-1965c713/ipkg-x86_64/uqmi into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/uqmi_2019-06-27-1965c713-7_x86_64.ipk
-time: package/network/utils/uqmi/compile#5.26#0.54#9.04
+time: package/network/utils/uqmi/compile#5.28#0.54#8.23

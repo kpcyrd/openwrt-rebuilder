@@ -73,4 +73,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/jsonfilter-2018-02-04-c7e938d6'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/jsonfilter-2018-02-04-c7e938d6/ipkg-x86_64/jsonfilter/usr/bin/jsonfilter: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/jsonfilter-2018-02-04-c7e938d6/ipkg-x86_64/jsonfilter into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/jsonfilter_2018-02-04-c7e938d6-1_x86_64.ipk
-time: package/utils/jsonfilter/compile#1.42#0.27#2.44
+time: package/utils/jsonfilter/compile#1.37#0.32#2.41

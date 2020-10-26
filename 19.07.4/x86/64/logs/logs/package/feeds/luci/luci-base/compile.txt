@@ -27,4 +27,4 @@ cp version.lua /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bui
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-base/src'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-base/ipkg-x86_64/luci-base/usr/lib/lua/luci/template/parser.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-base/ipkg-x86_64/luci-base into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/luci/luci-base_git-20.247.75781-0d0ab01-1_x86_64.ipk
-time: package/feeds/luci/luci-base/compile#3.96#0.97#7.90
+time: package/feeds/luci/luci-base/compile#3.86#1.01#8.94

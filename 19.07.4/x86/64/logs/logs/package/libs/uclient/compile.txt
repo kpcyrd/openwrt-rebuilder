@@ -64,4 +64,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uclient-2020-06-17-51e16ebf/ipkg-x86_64/libuclient into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/libuclient20160123_2020-06-17-51e16ebf-1_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uclient-2020-06-17-51e16ebf/ipkg-x86_64/uclient-fetch/bin/uclient-fetch: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/uclient-2020-06-17-51e16ebf/ipkg-x86_64/uclient-fetch into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/uclient-fetch_2020-06-17-51e16ebf-1_x86_64.ipk
-time: package/libs/uclient/compile#1.61#0.40#2.67
+time: package/libs/uclient/compile#1.62#0.38#2.90

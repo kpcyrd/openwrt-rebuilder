@@ -234,4 +234,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/dahdi-linux-2.11.1-20180111/ipkg-x86_64/kmod-dahdi-dummy into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-dahdi-dummy_4.14.195+2.11.1-20180111-2_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/dahdi-linux-2.11.1-20180111/ipkg-x86_64/kmod-dahdi-hfcs/lib/modules/4.14.195/dahdi_hfcs.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/dahdi-linux-2.11.1-20180111/ipkg-x86_64/kmod-dahdi-hfcs into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-dahdi-hfcs_4.14.195+2.11.1-20180111-2_x86_64.ipk
-time: package/feeds/telephony/dahdi-linux/compile#45.89#4.38#73.45
+time: package/feeds/telephony/dahdi-linux/compile#48.25#5.25#69.90

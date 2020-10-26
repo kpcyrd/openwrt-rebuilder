@@ -1,8 +1,8 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://github.com/wolfSSL/wolfssl/archive/v4.5.0-stable/wolfssl-4.5.0-stable.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130  100   130    0     0   3170      0 --:--:-- --:--:-- --:--:--  3170
-100 7299k  100 7299k    0     0  38.3M      0 --:--:-- --:--:-- --:--:-- 38.3M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   130  100   130    0     0    955      0 --:--:-- --:--:-- --:--:--   955
+100 2289k    0 2289k    0     0  3044k      0 --:--:-- --:--:-- --:--:-- 3044k100 7299k    0 7299k    0     0  4334k      0 --:--:--  0:00:01 --:--:-- 5381k
 
 Applying ./patches/100-disable-hardening-check.patch using plaintext: 
 patching file wolfssl/wolfcrypt/settings.h
@@ -1076,4 +1076,4 @@ OpenWrt-libtool: install: warning: remember to run `libtool --finish /usr/lib'
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/wolfssl-4.5.0-stable'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/wolfssl-4.5.0-stable'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/wolfssl-4.5.0-stable'
-time: package/libs/wolfssl/compile#35.40#3.25#53.70
+time: package/libs/wolfssl/compile#36.39#3.49#55.23

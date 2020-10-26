@@ -7,4 +7,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/linux-4.14.195'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/gpio-button-hotplug/ipkg-x86_64/kmod-gpio-button-hotplug/lib/modules/4.14.195/gpio-button-hotplug.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/gpio-button-hotplug/ipkg-x86_64/kmod-gpio-button-hotplug into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-gpio-button-hotplug_4.14.195-3_x86_64.ipk
-time: package/kernel/gpio-button-hotplug/compile#1.65#0.46#5.37
+time: package/kernel/gpio-button-hotplug/compile#1.67#0.44#5.16

@@ -1,5 +1,5 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/sed/sed-4.7.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1267k  100 1267k    0     0  3445k      0 --:--:-- --:--:-- --:--:-- 3445k
-time: tools/sed/download#0.10#0.01#0.46
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1267k  100 1267k    0     0  1009k      0  0:00:01  0:00:01 --:--:-- 1009k
+time: tools/sed/download#0.09#0.03#1.34

@@ -1537,4 +1537,4 @@ work properly.
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/busybox-1.30.1'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/busybox-1.30.1/ipkg-x86_64/busybox/bin/busybox: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/busybox-1.30.1/ipkg-x86_64/busybox into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/busybox_1.30.1-6_x86_64.ipk
-time: package/utils/busybox/compile#41.13#5.44#62.74
+time: package/utils/busybox/compile#40.62#5.87#60.72

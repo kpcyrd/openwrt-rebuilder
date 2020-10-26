@@ -1,5 +1,5 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/u-boot-2018.03.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 9824k    0 16123    0     0  32181      0  0:05:12 --:--:--  0:05:12 32181 53 9824k   53 5295k    0     0  3634k      0  0:00:02  0:00:01  0:00:01 3634k100 9824k  100 9824k    0     0  5098k      0  0:00:01  0:00:01 --:--:-- 5098k
-time: package/boot/uboot-envtools/download#0.26#0.12#2.24
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 42 9824k   42 4175k    0     0  3050k      0  0:00:03  0:00:01  0:00:02 3047k100 9824k  100 9824k    0     0  4944k      0  0:00:01  0:00:01 --:--:-- 4944k
+time: package/boot/uboot-envtools/download#0.27#0.11#2.29
