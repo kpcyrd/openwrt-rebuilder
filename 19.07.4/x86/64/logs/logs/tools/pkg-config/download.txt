@@ -1,0 +1,5 @@
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 1969k    0 16384    0     0  37321      0  0:00:54 --:--:--  0:00:54 37236100 1969k  100 1969k    0     0  2220k      0 --:--:-- --:--:-- --:--:-- 2217k
+time: tools/pkg-config/download#0.09#0.03#0.98

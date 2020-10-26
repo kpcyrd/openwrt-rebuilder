@@ -1,4 +1,5 @@
-mkdir: cannot create directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl': File exists
-Makefile:68: recipe for target '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl/gdb-8.3.1.tar.xz' failed
-make[2]: *** [/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl/gdb-8.3.1.tar.xz] Error 1
-time: toolchain/gdb/download#0.00#0.00#0.01
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/gdb/gdb-8.3.1.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3 19.5M    3  735k    0     0  1471k      0  0:00:13 --:--:--  0:00:13 1468k  4 19.5M    4  975k    0     0   648k      0  0:00:30  0:00:01  0:00:29  648k100 19.5M  100 19.5M    0     0  8361k      0  0:00:02  0:00:02 --:--:-- 8361k
+time: toolchain/gdb/download#0.24#0.08#2.47

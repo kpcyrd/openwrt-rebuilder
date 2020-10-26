@@ -1,0 +1,5 @@
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/mt76-2020-03-10-08054d5a.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3  844k    3 32510    0     0  54093      0  0:00:15 --:--:--  0:00:15 54003100  844k  100  844k    0     0   899k      0 --:--:-- --:--:-- --:--:--  898k
+time: package/kernel/mt76/download#0.90#0.36#2.32

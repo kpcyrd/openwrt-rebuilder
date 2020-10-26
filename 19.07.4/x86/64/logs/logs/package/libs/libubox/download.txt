@@ -1,0 +1,5 @@
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/libubox-2020-05-25-66195aee.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 67704  100 67704    0     0   100k      0 --:--:-- --:--:-- --:--:--  100k
+time: package/libs/libubox/download#0.62#0.24#1.70

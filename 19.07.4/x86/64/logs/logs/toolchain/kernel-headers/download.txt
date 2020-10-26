@@ -1,4 +1,5 @@
-mkdir: cannot create directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl': File exists
-Makefile:104: recipe for target '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl/linux-4.14.195.tar.xz' failed
-make[2]: *** [/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl/linux-4.14.195.tar.xz] Error 1
-time: toolchain/kernel-headers/download#0.01#0.00#0.03
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.195.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 96.6M    0 13468    0     0  19350      0  1:27:15 --:--:--  1:27:15 19322 53 96.6M   53 51.3M    0     0  34.8M      0  0:00:02  0:00:01  0:00:01 34.8M100 96.6M  100 96.6M    0     0  48.2M      0  0:00:02  0:00:02 --:--:-- 48.2M
+time: toolchain/kernel-headers/download#0.88#0.54#2.12

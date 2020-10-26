@@ -1,0 +1,5 @@
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/nat46-2017-05-12-683fbd2b.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 19508  100 19508    0     0  38706      0 --:--:-- --:--:-- --:--:-- 38629
+time: package/kernel/nat46/download#0.42#0.11#1.43

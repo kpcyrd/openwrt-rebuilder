@@ -1,4 +1,5 @@
-mkdir: cannot create directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl': File exists
-Makefile:28: recipe for target '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl/mpfr-4.0.2.tar.xz' failed
-make[2]: *** [/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/dl/mpfr-4.0.2.tar.xz] Error 1
-time: tools/mpfr/download#0.03#0.00#0.08
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/mpfr/mpfr-4.0.2.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1408k  100 1408k    0     0  1969k      0 --:--:-- --:--:-- --:--:-- 1969k
+time: tools/mpfr/download#0.09#0.02#0.88

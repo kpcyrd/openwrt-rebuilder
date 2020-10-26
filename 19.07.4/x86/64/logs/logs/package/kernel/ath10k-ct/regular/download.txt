@@ -1,0 +1,5 @@
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/ath10k-ct-2019-09-09-5e8cd86f.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  408k  100  408k    0     0   497k      0 --:--:-- --:--:-- --:--:--  497k
+time: package/kernel/ath10k-ct/regular/download#0.45#0.15#1.78
