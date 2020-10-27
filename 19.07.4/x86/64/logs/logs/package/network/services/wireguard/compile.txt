@@ -31,4 +31,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/linux-4.14.195'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/wireguard-linux-compat-1.0.20200611/ipkg-x86_64/kmod-wireguard/lib/modules/4.14.195/wireguard.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/wireguard-linux-compat-1.0.20200611/ipkg-x86_64/kmod-wireguard into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-wireguard_4.14.195+1.0.20200611-1_x86_64.ipk
-time: package/network/services/wireguard/compile#13.43#1.95#24.18
+time: package/network/services/wireguard/compile#12.89#1.91#19.92

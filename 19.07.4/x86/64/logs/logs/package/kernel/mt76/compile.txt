@@ -133,4 +133,4 @@ Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebui
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/mt76-2020-03-10-08054d5a/ipkg-x86_64/kmod-mt7615e/lib/modules/4.14.195/mt7615e.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/mt76-2020-03-10-08054d5a/ipkg-x86_64/kmod-mt7615e into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-mt7615e_4.14.195+2020-03-10-08054d5a-1_x86_64.ipk
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/mt76-2020-03-10-08054d5a/ipkg-x86_64/kmod-mt76 into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-mt76_4.14.195+2020-03-10-08054d5a-1_x86_64.ipk
-time: package/kernel/mt76/compile#43.31#7.36#74.68
+time: package/kernel/mt76/compile#39.83#6.14#71.96

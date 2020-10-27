@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/gdbm/gdbm-1.11.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  792k  100  792k    0     0  1839k      0 --:--:-- --:--:-- --:--:-- 1839k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  792k  100  792k    0     0  1873k      0 --:--:-- --:--:-- --:--:-- 1873k
 Copying file ABOUT-NLS
 Copying file build-aux/config.rpath
 Copying file m4/codeset.m4
@@ -499,4 +499,4 @@ make[5]: Nothing to be done for 'install-data-am'.
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/gdbm-1.11'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/gdbm-1.11'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/gdbm-1.11'
-time: package/feeds/packages/gdbm/compile#23.00#2.80#41.42
+time: package/feeds/packages/gdbm/compile#22.75#2.32#59.79

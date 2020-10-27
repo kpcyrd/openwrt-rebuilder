@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sourceware.org/pub/libffi/libffi-3.3.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1274k  100 1274k    0     0  4635k      0 --:--:-- --:--:-- --:--:-- 4756k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 32 1274k   32  412k    0     0  3493k      0 --:--:-- --:--:-- --:--:-- 3464k100 1274k  100 1274k    0     0  8977k      0 --:--:-- --:--:-- --:--:-- 8915k
 
 Applying ./patches/100-fix_mips_softfloat.patch using plaintext: 
 patching file src/mips/o32.S
@@ -333,4 +333,4 @@ make[6]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/libffi-3.3/x86/64'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/libffi-3.3/x86/64'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/libffi-3.3'
-time: package/feeds/packages/libffi/host-compile#6.87#1.91#19.72
+time: package/feeds/packages/libffi/host-compile#6.35#1.75#11.26

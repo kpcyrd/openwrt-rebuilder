@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://codeload.github.com/ARMmbed/mbedtls/tar.gz/v2.16.8?/mbedtls-2.16.8.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   616    0   616    0     0   3779      0 --:--:-- --:--:-- --:--:--  3756100 2600k    0 2600k    0     0  5372k      0 --:--:-- --:--:-- --:--:-- 5361k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  561k    0  561k    0     0  2218k      0 --:--:-- --:--:-- --:--:-- 2209k100 2600k    0 2600k    0     0  4962k      0 --:--:-- --:--:-- --:--:-- 4952k
 
 Applying ./patches/200-config.patch using plaintext: 
 patching file include/mbedtls/config.h
@@ -938,4 +938,4 @@ Install the project...
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/mbedtls-2.16.8/ipkg-install/usr/bin/strerror
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/mbedtls-2.16.8/ipkg-install/usr/bin/pem2der
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/mbedtls-2.16.8'
-time: package/libs/mbedtls/compile#23.59#3.36#35.25
+time: package/libs/mbedtls/compile#22.30#3.19#33.17

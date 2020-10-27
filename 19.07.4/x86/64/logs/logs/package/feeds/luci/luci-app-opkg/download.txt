@@ -1,1 +1,1 @@
-time: package/feeds/luci/luci-app-opkg/download#1.28#0.49#3.26
+time: package/feeds/luci/luci-app-opkg/download#1.26#0.43#2.79

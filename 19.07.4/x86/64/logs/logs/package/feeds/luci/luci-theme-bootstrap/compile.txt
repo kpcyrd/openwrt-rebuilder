@@ -193,4 +193,4 @@ Input size: 7.818KiB  Output size: 6.483KiB  Compression ratio: 17.07%
 -----------------------------------
 CSSTidy 1.3 by Florian Schmitz 2005, 2006
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-theme-bootstrap/ipkg-all/luci-theme-bootstrap into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/luci/luci-theme-bootstrap_git-20.247.75781-0d0ab01-1_all.ipk
-time: package/feeds/luci/luci-theme-bootstrap/compile#0.54#0.15#1.32
+time: package/feeds/luci/luci-theme-bootstrap/compile#0.52#0.13#1.44

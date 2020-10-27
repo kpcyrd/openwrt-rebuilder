@@ -90,4 +90,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/rpcd-2020-05-26-67c8a3fd/ipkg-x86_64/rpcd-mod-file into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/rpcd-mod-file_2020-05-26-67c8a3fd-1_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/rpcd-2020-05-26-67c8a3fd/ipkg-x86_64/rpcd-mod-iwinfo/usr/lib/rpcd/iwinfo.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/rpcd-2020-05-26-67c8a3fd/ipkg-x86_64/rpcd-mod-iwinfo into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/rpcd-mod-iwinfo_2020-05-26-67c8a3fd-1_x86_64.ipk
-time: package/system/rpcd/compile#3.30#0.51#8.92
+time: package/system/rpcd/compile#3.00#0.47#7.01

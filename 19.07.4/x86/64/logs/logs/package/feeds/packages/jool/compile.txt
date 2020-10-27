@@ -314,4 +314,4 @@ make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/Jool-3.5.7/ipkg-x86_64/kmod-jool/lib/modules/4.14.195/jool_siit.ko: relocatable
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/Jool-3.5.7/ipkg-x86_64/kmod-jool/lib/modules/4.14.195/jool.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/Jool-3.5.7/ipkg-x86_64/kmod-jool into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-jool_4.14.195+3.5.7-2_x86_64.ipk
-time: package/feeds/packages/jool/compile#48.08#7.73#76.33
+time: package/feeds/packages/jool/compile#44.91#7.28#70.39

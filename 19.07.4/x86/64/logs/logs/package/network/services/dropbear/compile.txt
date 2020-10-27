@@ -1007,4 +1007,4 @@ x86_64-openwrt-linux-musl-gcc -L/home/runner/work/openwrt-rebuilder/openwrt-rebu
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/dropbear-2019.78'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/dropbear-2019.78/ipkg-x86_64/dropbear/usr/sbin/dropbear: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/dropbear-2019.78/ipkg-x86_64/dropbear into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/dropbear_2019.78-2_x86_64.ipk
-time: package/network/services/dropbear/compile#25.28#6.57#48.14
+time: package/network/services/dropbear/compile#23.82#6.26#48.05

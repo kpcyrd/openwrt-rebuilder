@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure http://www.netfilter.org/projects/libmnl/files/libmnl-1.0.4.tar.bz2
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  294k  100  294k    0     0   288k      0  0:00:01  0:00:01 --:--:--  288k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 16  294k   16 48324    0     0   104k      0  0:00:02 --:--:--  0:00:02  104k100  294k  100  294k    0     0   479k      0 --:--:-- --:--:-- --:--:--  479k
 autoreconf: Entering directory `.'
 autoreconf: configure.ac: not using Gettext
 autoreconf: running: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/bin/aclocal -I /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/host/share/aclocal -I /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg/share/aclocal -I /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/share/aclocal -I m4 -I . --force -I m4
@@ -278,4 +278,4 @@ make[5]: Nothing to be done for 'install-exec-am'.
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libmnl-1.0.4'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libmnl-1.0.4'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libmnl-1.0.4'
-time: package/libs/libmnl/compile#8.52#1.26#19.63
+time: package/libs/libmnl/compile#7.84#1.04#18.55

@@ -1,1 +1,1 @@
-time: tools/mpfr/compile#0.05#0.02#0.13
+time: tools/mpfr/compile#0.04#0.01#0.11

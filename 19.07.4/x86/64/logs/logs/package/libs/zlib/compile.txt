@@ -164,4 +164,4 @@ Install the project...
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/zlib-1.2.11/ipkg-install/usr/share/man/man3/zlib.3
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/zlib-1.2.11/ipkg-install/usr/share/pkgconfig/zlib.pc
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/zlib-1.2.11'
-time: package/libs/zlib/compile#5.05#0.60#7.00
+time: package/libs/zlib/compile#5.12#0.72#8.15

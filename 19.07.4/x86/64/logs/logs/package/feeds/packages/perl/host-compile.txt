@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://cpan.metacpan.org/src/5.0/perl-5.28.1.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 11.7M    0 69242    0     0   386k      0  0:00:31 --:--:--  0:00:31  404k 95 11.7M   95 11.3M    0     0  9871k      0  0:00:01  0:00:01 --:--:-- 9939k100 11.7M  100 11.7M    0     0  9952k      0  0:00:01  0:00:01 --:--:--  9.7M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 43 11.7M   43 5248k    0     0  8926k      0  0:00:01 --:--:--  0:00:01 8911k100 11.7M  100 11.7M    0     0   9.9M      0  0:00:01  0:00:01 --:--:--  9.9M
 
 Applying ./patches/010-musl-compat.patch using plaintext: 
 File perl.c is read-only; trying to patch anyway
@@ -3070,11 +3070,11 @@ Finishing processing Unicode properties
 Compiling Perl properties
 Creating Perl synonyms
 Writing tables
-rm -f libperl.a
-/usr/bin/ar rc libperl.a op.o     perl.o  gv.o toke.o perly.o pad.o regcomp.o dump.o util.o mg.o reentr.o mro_core.o keywords.o hv.o av.o run.o pp_hot.o sv.o pp.o scope.o pp_ctl.o pp_sys.o doop.o doio.o regexec.o utf8.o taint.o deb.o universal.o globals.o perlio.o perlapi.o numeric.o mathoms.o locale.o pp_pack.o pp_sort.o caretx.o dquote.o time64.o   DynaLoader.o
 Making pod file
 Making test script
 Updating 'mktables.lst'
+rm -f libperl.a
+/usr/bin/ar rc libperl.a op.o     perl.o  gv.o toke.o perly.o pad.o regcomp.o dump.o util.o mg.o reentr.o mro_core.o keywords.o hv.o av.o run.o pp_hot.o sv.o pp.o scope.o pp_ctl.o pp_sys.o doop.o doio.o regexec.o utf8.o taint.o deb.o universal.o globals.o perlio.o perlapi.o numeric.o mathoms.o locale.o pp_pack.o pp_sort.o caretx.o dquote.o time64.o   DynaLoader.o
 ./miniperl -Ilib -I. make_ext.pl lib/auto/B/B.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 Generating a Unix-style Makefile
 Writing Makefile for B
@@ -4133,9 +4133,14 @@ Generating a Unix-style Makefile
 Writing Makefile for POSIX
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX'
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp" -noprototypes -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX/typemap'  POSIX.xs > POSIX.xsc
-./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/encoding/encoding.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 mv POSIX.xsc POSIX.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DSTRUCT_TM_HASZONE -DHINT_SC_EXIST -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.84\" -DXS_VERSION=\"1.84\"  "-I../.."   POSIX.c
+rm -f "../../lib/auto/POSIX/POSIX.a"
+/usr/bin/ar cr "../../lib/auto/POSIX/POSIX.a" POSIX.o
+: "../../lib/auto/POSIX/POSIX.a"
+chmod 755 ../../lib/auto/POSIX/POSIX.a
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX'
+./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/encoding/encoding.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 Generating a Unix-style Makefile
 Writing Makefile for PerlIO::encoding
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-encoding'
@@ -4151,24 +4156,19 @@ make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 Generating a Unix-style Makefile
 Writing Makefile for PerlIO::mmap
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap'
-rm -f "../../lib/auto/POSIX/POSIX.a"
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap/../../lib/ExtUtils/typemap'  mmap.xs > mmap.xsc
-/usr/bin/ar cr "../../lib/auto/POSIX/POSIX.a" POSIX.o
-: "../../lib/auto/POSIX/POSIX.a"
-chmod 755 ../../lib/auto/POSIX/POSIX.a
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/POSIX'
-./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/scalar/scalar.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 mv mmap.xsc mmap.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.016\" -DXS_VERSION=\"0.016\"  "-I../.."   mmap.c
-Generating a Unix-style Makefile
-Writing Makefile for PerlIO::scalar
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar'
 rm -f "../../lib/auto/PerlIO/mmap/mmap.a"
 /usr/bin/ar cr "../../lib/auto/PerlIO/mmap/mmap.a" mmap.o
 : "../../lib/auto/PerlIO/mmap/mmap.a"
 chmod 755 ../../lib/auto/PerlIO/mmap/mmap.a
-"../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar/../../lib/ExtUtils/typemap'  scalar.xs > scalar.xsc
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-mmap'
+./miniperl -Ilib -I. make_ext.pl lib/auto/PerlIO/scalar/scalar.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
+Generating a Unix-style Makefile
+Writing Makefile for PerlIO::scalar
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar'
+"../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/PerlIO-scalar/../../lib/ExtUtils/typemap'  scalar.xs > scalar.xsc
 mv scalar.xsc scalar.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.29\" -DXS_VERSION=\"0.29\"  "-I../.."   scalar.c
 rm -f "../../lib/auto/PerlIO/scalar/scalar.a"
@@ -4290,52 +4290,47 @@ Looking for stat() subsecond timestamps...
 Trying struct stat st_atimespec.tv_nsec...NOT found.
 Trying struct stat st_atimensec...NOT found.
 Trying struct stat st_atime_n...NOT found.
-Trying struct stat st_atim.tv_nsec...found.
-Trying struct stat st_uatime...NOT found.
-You seem to have subsecond timestamp reading.
-(Your struct stat has them, but the filesystems must help.)
-Generating a Unix-style Makefile
-Writing Makefile for Time::HiRes
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes'
-"../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes/typemap'  HiRes.xs > HiRes.xsc
-mv HiRes.xsc HiRes.c
-cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.9759\" -DXS_VERSION=\"1.9759\"  "-I../.."  -DTIME_HIRES_NANOSLEEP -DTIME_HIRES_CLOCKID_T -DTIME_HIRES_CLOCK_GETTIME -DTIME_HIRES_CLOCK_GETRES -DTIME_HIRES_CLOCK_NANOSLEEP -DTIME_HIRES_CLOCK -DHAS_FUTIMENS -DHAS_UTIMENSAT -DTIME_HIRES_UTIME -DTIME_HIRES_STAT_XTIM -DTIME_HIRES_STAT=4 -DATLEASTFIVEOHOHFIVE HiRes.c
-rm -f "../../lib/auto/Time/HiRes/HiRes.a"
-/usr/bin/ar cr "../../lib/auto/Time/HiRes/HiRes.a" HiRes.o
-: "../../lib/auto/Time/HiRes/HiRes.a"
-chmod 755 ../../lib/auto/Time/HiRes/HiRes.a
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes'
-./miniperl -Ilib -I. make_ext.pl lib/auto/Time/Piece/Piece.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
+Trying struct stat st_atim.tv_nsec..../miniperl -Ilib -I. make_ext.pl lib/auto/Time/Piece/Piece.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 Generating a Unix-style Makefile
 Writing Makefile for Time::Piece
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Time-Piece'
+found.
+Trying struct stat st_uatime...NOT found.
+You seem to have subsecond timestamp reading.
+(Your struct stat has them, but the filesystems must help.)
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Time-Piece/../../lib/ExtUtils/typemap'  Piece.xs > Piece.xsc
+Generating a Unix-style Makefile
+Writing Makefile for Time::HiRes
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes'
 mv Piece.xsc Piece.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.3204\" -DXS_VERSION=\"1.3204\"  "-I../.."   Piece.c
+"../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes/../../lib/ExtUtils/typemap' -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes/typemap'  HiRes.xs > HiRes.xsc
+mv HiRes.xsc HiRes.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.9759\" -DXS_VERSION=\"1.9759\"  "-I../.."  -DTIME_HIRES_NANOSLEEP -DTIME_HIRES_CLOCKID_T -DTIME_HIRES_CLOCK_GETTIME -DTIME_HIRES_CLOCK_GETRES -DTIME_HIRES_CLOCK_NANOSLEEP -DTIME_HIRES_CLOCK -DHAS_FUTIMENS -DHAS_UTIMENSAT -DTIME_HIRES_UTIME -DTIME_HIRES_STAT_XTIM -DTIME_HIRES_STAT=4 -DATLEASTFIVEOHOHFIVE HiRes.c
 rm -f "../../lib/auto/Time/Piece/Piece.a"
 /usr/bin/ar cr "../../lib/auto/Time/Piece/Piece.a" Piece.o
 : "../../lib/auto/Time/Piece/Piece.a"
 chmod 755 ../../lib/auto/Time/Piece/Piece.a
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Time-Piece'
 ./miniperl -Ilib -I. make_ext.pl lib/auto/Unicode/Collate/Collate.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
-Making header files for XS...
-make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Unicode-Collate'
-"../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Unicode-Collate/../../lib/ExtUtils/typemap'  Collate.xs > Collate.xsc
-mv Collate.xsc Collate.c
-cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.25\" -DXS_VERSION=\"1.25\"  "-I../.."   Collate.c
-rm -f "../../lib/auto/Unicode/Collate/Collate.a"
-/usr/bin/ar cr "../../lib/auto/Unicode/Collate/Collate.a" Collate.o
-: "../../lib/auto/Unicode/Collate/Collate.a"
-chmod 755 ../../lib/auto/Unicode/Collate/Collate.a
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Unicode-Collate'
+rm -f "../../lib/auto/Time/HiRes/HiRes.a"
+/usr/bin/ar cr "../../lib/auto/Time/HiRes/HiRes.a" HiRes.o
+: "../../lib/auto/Time/HiRes/HiRes.a"
+chmod 755 ../../lib/auto/Time/HiRes/HiRes.a
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Time-HiRes'
 ./miniperl -Ilib -I. make_ext.pl lib/auto/Unicode/Normalize/Normalize.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 Making header files for XS...
 Generating a Unix-style Makefile
 Writing Makefile for Unicode::Normalize
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Unicode-Normalize'
+Making header files for XS...
+make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Unicode-Collate'
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Unicode-Normalize/../../lib/ExtUtils/typemap'  Normalize.xs > Normalize.xsc
 mv Normalize.xsc Normalize.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.26\" -DXS_VERSION=\"1.26\"  "-I../.."   Normalize.c
+"../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Unicode-Collate/../../lib/ExtUtils/typemap'  Collate.xs > Collate.xsc
+mv Collate.xsc Collate.c
+cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"1.25\" -DXS_VERSION=\"1.25\"  "-I../.."   Collate.c
 rm -f "../../lib/auto/Unicode/Normalize/Normalize.a"
 /usr/bin/ar cr "../../lib/auto/Unicode/Normalize/Normalize.a" Normalize.o
 : "../../lib/auto/Unicode/Normalize/Normalize.a"
@@ -4345,6 +4340,11 @@ make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 Generating a Unix-style Makefile
 Writing Makefile for arybase
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/arybase'
+rm -f "../../lib/auto/Unicode/Collate/Collate.a"
+/usr/bin/ar cr "../../lib/auto/Unicode/Collate/Collate.a" Collate.o
+: "../../lib/auto/Unicode/Collate/Collate.a"
+chmod 755 ../../lib/auto/Unicode/Collate/Collate.a
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/cpan/Unicode-Collate'
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/arybase/../../lib/ExtUtils/typemap'  arybase.xs > arybase.xsc
 mv arybase.xsc arybase.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.15\" -DXS_VERSION=\"0.15\"  "-I../.."   arybase.c
@@ -4394,15 +4394,15 @@ mv re.xsc re.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\"  "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re_exec.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\"  "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re_comp.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"0.36\" -DXS_VERSION=\"0.36\"  "-I../.."  -DPERL_EXT_RE_BUILD -DPERL_EXT_RE_DEBUG -DPERL_EXT re.c
+./miniperl -Ilib -I. make_ext.pl lib/auto/threads/threads.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 rm -f "../../lib/auto/re/re.a"
 /usr/bin/ar cr "../../lib/auto/re/re.a" re_exec.o re_comp.o re.o
 : "../../lib/auto/re/re.a"
 chmod 755 ../../lib/auto/re/re.a
-make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/re'
-./miniperl -Ilib -I. make_ext.pl lib/auto/threads/threads.a  MAKE="make" LIBPERL_A=libperl.a LINKTYPE=static CCCDLFLAGS=
 Generating a Unix-style Makefile
 Writing Makefile for threads
 make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/threads'
+make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/ext/re'
 "../../miniperl" "-I../../lib" "../../lib/ExtUtils/xsubpp"  -typemap '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/threads/../../lib/ExtUtils/typemap'  threads.xs > threads.xsc
 mv threads.xsc threads.c
 cc -c   -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -Werror=declaration-after-statement -Werror=pointer-arith -Wextra -Wc++-compat -Wwrite-strings -O2   -DVERSION=\"2.22\" -DXS_VERSION=\"2.22\"  "-I../.."   threads.c
@@ -4508,27 +4508,28 @@ Storable: determining recursion limit: 24691 passed, try more 24817 ...
 Storable: determining recursion limit: 24817 passed, try more 24880 ...
 Storable: determining recursion limit: 24880 passed, try more 24912 ...
 Storable: determining recursion limit: 24912 passed, try more 24928 ...
-Storable: determining recursion limit: 24928 too big, try less 24920 ...
-Storable: determining recursion limit: 24920 passed, try more 24924 ...
-Storable: determining recursion limit: 24924 passed, try more 24926 ...
-Storable: determining recursion limit: 24926 too big, try less 24925 ...
-Storable: determining recursion limit: 24925 too big, try less 24925 ...
-MAX_DEPTH = 24924
-Storable: determining recursion limit: 12462 passed, try more 18693 ...
-Storable: determining recursion limit: 18693 too big, try less 15578 ...
-Storable: determining recursion limit: 15578 passed, try more 17135 ...
-Storable: determining recursion limit: 17135 too big, try less 16357 ...
-Storable: determining recursion limit: 16357 too big, try less 15968 ...
-Storable: determining recursion limit: 15968 passed, try more 16162 ...
-Storable: determining recursion limit: 16162 passed, try more 16259 ...
-Storable: determining recursion limit: 16259 passed, try more 16308 ...
-Storable: determining recursion limit: 16308 passed, try more 16332 ...
-Storable: determining recursion limit: 16332 passed, try more 16344 ...
-Storable: determining recursion limit: 16344 passed, try more 16350 ...
-Storable: determining recursion limit: 16350 passed, try more 16353 ...
-Storable: determining recursion limit: 16353 too big, try less 16352 ...
-Storable: determining recursion limit: 16352 passed, try more 16352 ...
-MAX_DEPTH_HASH = 16352
+Storable: determining recursion limit: 24928 passed, try more 24936 ...
+Storable: determining recursion limit: 24936 too big, try less 24932 ...
+Storable: determining recursion limit: 24932 too big, try less 24930 ...
+Storable: determining recursion limit: 24930 passed, try more 24931 ...
+Storable: determining recursion limit: 24931 too big, try less 24931 ...
+MAX_DEPTH = 24930
+Storable: determining recursion limit: 12465 passed, try more 18697 ...
+Storable: determining recursion limit: 18697 too big, try less 15581 ...
+Storable: determining recursion limit: 15581 passed, try more 17139 ...
+Storable: determining recursion limit: 17139 too big, try less 16360 ...
+Storable: determining recursion limit: 16360 too big, try less 15971 ...
+Storable: determining recursion limit: 15971 passed, try more 16165 ...
+Storable: determining recursion limit: 16165 passed, try more 16262 ...
+Storable: determining recursion limit: 16262 passed, try more 16311 ...
+Storable: determining recursion limit: 16311 passed, try more 16335 ...
+Storable: determining recursion limit: 16335 passed, try more 16347 ...
+Storable: determining recursion limit: 16347 passed, try more 16353 ...
+Storable: determining recursion limit: 16353 passed, try more 16356 ...
+Storable: determining recursion limit: 16356 passed, try more 16358 ...
+Storable: determining recursion limit: 16358 too big, try less 16357 ...
+Storable: determining recursion limit: 16357 passed, try more 16357 ...
+MAX_DEPTH_HASH = 16357
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/dist/Storable'
 test -d lib/Storable || mkdir lib/Storable
 cp dist/Storable/lib/Storable/Limit.pm lib/Storable/Limit.pm
@@ -6316,4 +6317,4 @@ To install the new 'perl' binary, call
     make -f Makefile.aperl map_clean
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/relink'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/perl/perl-5.28.1/relink'
-time: package/feeds/packages/perl/host-compile#185.94#24.25#278.38
+time: package/feeds/packages/perl/host-compile#176.82#22.99#260.61

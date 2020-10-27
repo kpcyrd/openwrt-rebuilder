@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  791k  100  791k    0     0  6180k      0 --:--:-- --:--:-- --:--:-- 6228k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  791k  100  791k    0     0  5903k      0 --:--:-- --:--:-- --:--:-- 5947k
 
 Applying ./patches/020-no-utime.patch using plaintext: 
 patching file bzip2.c
@@ -122,4 +122,4 @@ echo ".so man1/bzgrep.1" > /home/runner/work/openwrt-rebuilder/openwrt-rebuilder
 echo ".so man1/bzmore.1" > /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg//man/man1/bzless.1
 echo ".so man1/bzdiff.1" > /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg//man/man1/bzcmp.1
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/bzip2-1.0.8'
-time: package/utils/bzip2/host-compile#2.93#0.28#4.34
+time: package/utils/bzip2/host-compile#2.72#0.27#4.10

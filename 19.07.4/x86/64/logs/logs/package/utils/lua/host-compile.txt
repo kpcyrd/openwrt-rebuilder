@@ -126,4 +126,4 @@ cd src && install -p -m 0644 lua.h luaconf.h lualib.h lauxlib.h lnum_config.h ..
 cd src && install -p -m 0644 liblua.a /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg/lib
 cd doc && install -p -m 0644 lua.1 luac.1 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg/man/man1
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/lua-5.1.5'
-time: package/utils/lua/host-compile#4.46#0.54#9.23
+time: package/utils/lua/host-compile#4.22#0.39#7.10

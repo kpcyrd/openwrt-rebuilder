@@ -1,5 +1,5 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/lucihttp-2019-07-05-a34a17d5.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 94 17036   94 16128    0     0  31748      0 --:--:-- --:--:-- --:--:-- 31685100 17036  100 17036    0     0  33469      0 --:--:-- --:--:-- --:--:-- 33469
-time: package/feeds/luci/lucihttp/download#0.39#0.14#1.39
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 17036  100 17036    0     0  32082      0 --:--:-- --:--:-- --:--:-- 32082
+time: package/feeds/luci/lucihttp/download#0.38#0.11#1.25

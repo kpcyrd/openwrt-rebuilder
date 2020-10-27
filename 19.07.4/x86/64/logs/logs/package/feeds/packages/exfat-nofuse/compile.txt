@@ -23,4 +23,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/linux-4.14.195'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/exfat-nofuse-2018-04-17-01c30ad5/ipkg-x86_64/kmod-fs-exfat/lib/modules/4.14.195/exfat.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/exfat-nofuse-2018-04-17-01c30ad5/ipkg-x86_64/kmod-fs-exfat into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-fs-exfat_4.14.195+2018-04-17-01c30ad5-2_x86_64.ipk
-time: package/feeds/packages/exfat-nofuse/compile#5.47#0.96#8.33
+time: package/feeds/packages/exfat-nofuse/compile#5.47#0.91#10.12

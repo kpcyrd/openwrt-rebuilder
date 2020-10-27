@@ -1,9 +1,9 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://downloads.sourceforge.net/expat/expat-2.2.9.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   368  100   368    0     0   1202      0 --:--:-- --:--:-- --:--:--  1198
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   343  100   343    0     0    148      0  0:00:02  0:00:02 --:--:--   343100   343  100   343    0     0    148      0  0:00:02  0:00:02 --:--:--   343
-100  412k  100  412k    0     0   155k      0  0:00:02  0:00:02 --:--:--  155k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   368  100   368    0     0   1277      0 --:--:-- --:--:-- --:--:--  1273
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   347  100   347    0     0    151      0  0:00:02  0:00:02 --:--:--   347100   347  100   347    0     0    151      0  0:00:02  0:00:02 --:--:--   347
+100  412k  100  412k    0     0   168k      0  0:00:02  0:00:02 --:--:--  168k
 autoreconf: Entering directory `.'
 autoreconf: configure.ac: not using Gettext
 autoreconf: running: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/bin/aclocal -I m4 -I . --force -I m4
@@ -381,4 +381,4 @@ make[5]: Nothing to be done for 'install-exec-am'.
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/expat-2.2.9'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/expat-2.2.9'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/hostpkg/expat-2.2.9'
-time: package/feeds/packages/expat/host-compile#24.43#2.73#34.76
+time: package/feeds/packages/expat/host-compile#23.53#2.62#31.98

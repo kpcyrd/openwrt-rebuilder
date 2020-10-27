@@ -1,1 +1,1 @@
-time: package/feeds/luci/rpcd-mod-luci/download#0.11#0.02#0.22
+time: package/feeds/luci/rpcd-mod-luci/download#0.10#0.02#0.18

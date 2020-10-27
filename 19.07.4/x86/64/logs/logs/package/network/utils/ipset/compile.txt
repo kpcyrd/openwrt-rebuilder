@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure http://ipset.netfilter.org/ipset-7.3.tar.bz2
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  1  653k    1  8340    0     0  12228      0  0:00:54 --:--:--  0:00:54 12210100  653k  100  653k    0     0   590k      0  0:00:01  0:00:01 --:--:--  590k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 66  653k   66  434k    0     0   397k      0  0:00:01  0:00:01 --:--:--  398k100  653k  100  653k    0     0   595k      0  0:00:01  0:00:01 --:--:--  597k
 autoreconf: Entering directory `.'
 autoreconf: configure.ac: not using Gettext
 autoreconf: running: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/bin/aclocal -I /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/host/share/aclocal -I /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg/share/aclocal -I /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/usr/share/aclocal -I m4 -I . --force -I m4
@@ -383,4 +383,4 @@ make[5]: Nothing to be done for 'install-data-am'.
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ipset-7.3'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ipset-7.3'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ipset-7.3'
-time: package/network/utils/ipset/compile#13.73#1.91#38.22
+time: package/network/utils/ipset/compile#12.88#1.84#37.24

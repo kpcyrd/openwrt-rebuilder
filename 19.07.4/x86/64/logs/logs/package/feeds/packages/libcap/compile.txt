@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://cdn.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.27.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 67780  100 67780    0     0   906k      0 --:--:-- --:--:-- --:--:--  919k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 67780  100 67780    0     0  1248k      0 --:--:-- --:--:-- --:--:-- 1248k
 
 Applying ./patches/100-portability.patch using plaintext: 
 patching file libcap/_makenames.c
@@ -94,4 +94,4 @@ make[4]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[4]: Nothing to be done for 'install'.
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libcap-2.27/kdebug'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libcap-2.27'
-time: package/feeds/packages/libcap/compile#1.12#0.21#1.44
+time: package/feeds/packages/libcap/compile#1.06#0.17#1.39

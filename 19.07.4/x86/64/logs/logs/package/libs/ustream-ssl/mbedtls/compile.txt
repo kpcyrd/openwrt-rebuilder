@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/ustream-ssl-2020-03-13-40b563b1.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11472  100 11472    0     0  28117      0 --:--:-- --:--:-- --:--:-- 28186
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 11472  100 11472    0     0  28048      0 --:--:-- --:--:-- --:--:-- 28117
 -- The C compiler identification is GNU 7.5.0
 -- Check for working C compiler: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/bin/x86_64-openwrt-linux-musl-gcc
 -- Check for working C compiler: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/toolchain-x86_64_gcc-7.5.0_musl/bin/x86_64-openwrt-linux-musl-gcc -- works
@@ -71,4 +71,4 @@ Install the project...
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/ustream-ssl-mbedtls/ustream-ssl-2020-03-13-40b563b1/ipkg-install/usr/include/libubox/ustream-ssl.h
 -- Installing: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/ustream-ssl-mbedtls/ustream-ssl-2020-03-13-40b563b1/ipkg-install/usr/lib/libustream-ssl.so
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/ustream-ssl-mbedtls/ustream-ssl-2020-03-13-40b563b1'
-time: package/libs/ustream-ssl/mbedtls/compile#1.08#0.36#2.55
+time: package/libs/ustream-ssl/mbedtls/compile#1.07#0.31#2.33

@@ -1,8 +1,8 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://files.pythonhosted.org/packages/source/s/six/six-1.13.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-100 33726  100 33726    0     0   567k      0 --:--:-- --:--:-- --:--:--  567k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 33726  100 33726    0     0   307k      0 --:--:-- --:--:-- --:--:--  307k
 running install
 running build
 running build_py
@@ -26,4 +26,4 @@ no previously-included directories found matching 'documentation/_build'
 writing manifest file 'six.egg-info/SOURCES.txt'
 Copying six.egg-info to /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/hostpkg/lib/python3.7/site-packages/six-1.13.0-py3.7.egg-info
 running install_scripts
-time: package/feeds/packages/python-six/host-compile#1.13#0.09#1.42
+time: package/feeds/packages/python-six/host-compile#1.03#0.11#1.35

@@ -79,4 +79,4 @@ make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ath10k-ct-regular/ath10k-ct-2019-09-09-5e8cd86f/ipkg-x86_64/kmod-ath10k-ct/lib/modules/4.14.195/ath10k_pci.ko: relocatable
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ath10k-ct-regular/ath10k-ct-2019-09-09-5e8cd86f/ipkg-x86_64/kmod-ath10k-ct/lib/modules/4.14.195/ath10k_core.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ath10k-ct-regular/ath10k-ct-2019-09-09-5e8cd86f/ipkg-x86_64/kmod-ath10k-ct into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-ath10k-ct_4.14.195+2019-09-09-5e8cd86f-1_x86_64.ipk
-time: package/kernel/ath10k-ct/regular/compile#21.87#2.86#33.68
+time: package/kernel/ath10k-ct/regular/compile#20.10#2.49#30.23

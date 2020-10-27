@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://git.savannah.nongnu.org/cgit/acl.git/snapshot/acl-2.2.53.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  114k    0  114k    0     0   472k      0 --:--:-- --:--:-- --:--:--  470k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 15920    0 15920    0     0  86994      0 --:--:-- --:--:-- --:--:-- 86521100  114k    0  114k    0     0   528k      0 --:--:-- --:--:-- --:--:--  528k
 
 Applying ./patches/100-no-gettext_configure.patch using plaintext: 
 patching file configure.ac
@@ -248,4 +248,4 @@ subst_install_header() { file=`echo "$1" | sed -e 's,^.*/,,'`; /home/runner/work
  /usr/bin/install -c -m 644 libacl.pc '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/acl-2.2.53/ipkg-install/usr/lib/pkgconfig'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/acl-2.2.53'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/acl-2.2.53'
-time: package/feeds/packages/acl/compile#13.82#2.34#33.31
+time: package/feeds/packages/acl/compile#12.93#1.95#37.12

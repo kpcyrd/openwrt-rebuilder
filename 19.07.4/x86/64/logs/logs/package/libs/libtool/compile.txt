@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure https://mirror.csclub.uwaterloo.ca/gnu/libtool/libtool-2.4.6.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  950k  100  950k    0     0  2235k      0 --:--:-- --:--:-- --:--:-- 2235k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  950k  100  950k    0     0  2424k      0 --:--:-- --:--:-- --:--:-- 2430k
 configure: WARNING: unrecognized options: --disable-nls
 configure: loading site script /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/include/site/x86_64
 ## ------------------------- ##
@@ -25,7 +25,7 @@ configure: autobuild project... GNU Libtool
 configure: autobuild revision... 2.4.6
 configure: autobuild hostname... fv-az50-806
 configure: autobuild mode... default
-configure: autobuild timestamp... 20201026T214810Z
+configure: autobuild timestamp... 20201027T032559Z
 checking for x86_64-openwrt-linux-gcc... x86_64-openwrt-linux-musl-gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -351,4 +351,4 @@ make[6]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libtool-2.4.6'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libtool-2.4.6'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libtool-2.4.6'
-time: package/libs/libtool/compile#7.29#1.70#10.19
+time: package/libs/libtool/compile#7.05#1.68#9.69

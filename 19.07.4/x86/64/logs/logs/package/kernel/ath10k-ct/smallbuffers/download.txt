@@ -1,1 +1,1 @@
-time: package/kernel/ath10k-ct/smallbuffers/download#0.38#0.12#0.99
+time: package/kernel/ath10k-ct/smallbuffers/download#0.37#0.11#0.81

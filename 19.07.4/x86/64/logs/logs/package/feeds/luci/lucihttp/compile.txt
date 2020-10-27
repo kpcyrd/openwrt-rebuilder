@@ -69,4 +69,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/lucihttp-2019-07-05-a34a17d5/ipkg-x86_64/liblucihttp into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/luci/liblucihttp0_2019-07-05-a34a17d5-1_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/lucihttp-2019-07-05-a34a17d5/ipkg-x86_64/liblucihttp-lua/usr/lib/lua/lucihttp.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/lucihttp-2019-07-05-a34a17d5/ipkg-x86_64/liblucihttp-lua into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/luci/liblucihttp-lua_2019-07-05-a34a17d5-1_x86_64.ipk
-time: package/feeds/luci/lucihttp/compile#1.34#0.37#3.20
+time: package/feeds/luci/lucihttp/compile#1.38#0.32#3.93

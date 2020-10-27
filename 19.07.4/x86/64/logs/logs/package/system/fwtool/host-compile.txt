@@ -6,4 +6,4 @@
 ./src/fwtool.c:378:3: warning: ignoring return value of 'ftruncate', declared with attribute warn_unused_result [-Wunused-result]
    ftruncate(fileno(firmware_file), dbuf.file_len);
    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-time: package/system/fwtool/host-compile#0.29#0.05#0.57
+time: package/system/fwtool/host-compile#0.28#0.04#0.48

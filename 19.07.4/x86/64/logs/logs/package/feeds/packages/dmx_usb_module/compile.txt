@@ -16,4 +16,4 @@ make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/dmx_usb_module-0.1.20130818'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/dmx_usb_module-0.1.20130818/ipkg-x86_64/kmod-usb-serial-dmx_usb_module/lib/modules/4.14.195/dmx_usb.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/dmx_usb_module-0.1.20130818/ipkg-x86_64/kmod-usb-serial-dmx_usb_module into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-usb-serial-dmx_usb_module_4.14.195+0.1.20130818-2_x86_64.ipk
-time: package/feeds/packages/dmx_usb_module/compile#1.54#0.41#4.67
+time: package/feeds/packages/dmx_usb_module/compile#1.50#0.45#3.87

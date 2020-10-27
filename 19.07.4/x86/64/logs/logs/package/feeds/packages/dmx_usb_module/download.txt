@@ -21,4 +21,4 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at ee99ca7 Update version number
 Packing checkout...
-time: package/feeds/packages/dmx_usb_module/download#0.24#0.08#1.33
+time: package/feeds/packages/dmx_usb_module/download#0.23#0.06#0.63

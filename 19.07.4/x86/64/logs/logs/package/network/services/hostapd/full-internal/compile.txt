@@ -365,4 +365,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
   LD  hostapd_cli
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/hostapd-full-internal/hostapd-2019-08-08-ca8c2bd2/hostapd'
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/hostapd-full-internal/hostapd-2019-08-08-ca8c2bd2/ipkg-x86_64/hostapd-common into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/hostapd-common_2019-08-08-ca8c2bd2-4_x86_64.ipk
-time: package/network/services/hostapd/full-internal/compile#31.68#4.12#45.22
+time: package/network/services/hostapd/full-internal/compile#30.12#3.66#44.51

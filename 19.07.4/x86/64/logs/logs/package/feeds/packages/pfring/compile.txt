@@ -28,4 +28,4 @@ insmod <path>/pf_ring.ko
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/PF_RING-7.2.0/kernel'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/PF_RING-7.2.0/ipkg-x86_64/kmod-pf-ring/lib/modules/4.14.195/pf_ring.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/PF_RING-7.2.0/ipkg-x86_64/kmod-pf-ring into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-pf-ring_4.14.195+7.2.0-1_x86_64.ipk
-time: package/feeds/packages/pfring/compile#5.73#1.43#10.33
+time: package/feeds/packages/pfring/compile#5.00#1.13#9.55

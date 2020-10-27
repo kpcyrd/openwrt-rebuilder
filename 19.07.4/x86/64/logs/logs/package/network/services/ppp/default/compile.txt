@@ -427,4 +427,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ppp-default/ppp-2.4.7.git-2019-05-25/ipkg-x86_64/ppp-mod-pppoe into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/ppp-mod-pppoe_2.4.7.git-2019-05-25-3_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ppp-default/ppp-2.4.7.git-2019-05-25/ipkg-x86_64/chat/usr/sbin/chat: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/ppp-default/ppp-2.4.7.git-2019-05-25/ipkg-x86_64/chat into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/chat_2.4.7.git-2019-05-25-3_x86_64.ipk
-time: package/network/services/ppp/default/compile#11.04#1.37#20.55
+time: package/network/services/ppp/default/compile#10.48#1.34#17.47

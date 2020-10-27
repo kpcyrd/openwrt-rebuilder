@@ -139,4 +139,4 @@ make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/opkg-2020-05-07-f2166a89/ipkg-x86_64/opkg/bin/opkg: executable
 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/host/bin/find: '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/opkg-2020-05-07-f2166a89/ipkg-x86_64/opkg/etc/opkg/keys/': No such file or directory
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/opkg-2020-05-07-f2166a89/ipkg-x86_64/opkg into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/opkg_2020-05-07-f2166a89-1_x86_64.ipk
-time: package/system/opkg/compile#7.35#1.32#11.27
+time: package/system/opkg/compile#6.96#1.15#11.89

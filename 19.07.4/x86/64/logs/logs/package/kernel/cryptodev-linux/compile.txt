@@ -16,4 +16,4 @@ make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilde
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/cryptodev-linux-cryptodev-linux-1.10'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/cryptodev-linux-cryptodev-linux-1.10/ipkg-x86_64/kmod-cryptodev/lib/modules/4.14.195/cryptodev.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/cryptodev-linux-cryptodev-linux-1.10/ipkg-x86_64/kmod-cryptodev into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-cryptodev_4.14.195+1.10-x86-1_x86_64.ipk
-time: package/kernel/cryptodev-linux/compile#3.99#0.71#12.67
+time: package/kernel/cryptodev-linux/compile#3.78#0.71#11.02

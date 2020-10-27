@@ -197,4 +197,4 @@ rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_d
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libubox-2020-05-25-66195aee/ipkg-x86_64/jshn into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/jshn_2020-05-25-66195aee-1_x86_64.ipk
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libubox-2020-05-25-66195aee/ipkg-x86_64/libjson-script/lib/libjson_script.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/libubox-2020-05-25-66195aee/ipkg-x86_64/libjson-script into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/libjson-script_2020-05-25-66195aee-1_x86_64.ipk
-time: package/libs/libubox/compile#5.89#0.88#16.79
+time: package/libs/libubox/compile#5.79#0.85#17.72

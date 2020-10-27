@@ -44,4 +44,4 @@ cp -pR dist/* /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/buil
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-lib-nixio/src'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-lib-nixio/ipkg-x86_64/luci-lib-nixio/usr/lib/lua/nixio.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-lib-nixio/ipkg-x86_64/luci-lib-nixio into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/luci/luci-lib-nixio_git-20.247.75781-0d0ab01-1_x86_64.ipk
-time: package/feeds/luci/luci-lib-nixio/compile#2.56#0.41#5.67
+time: package/feeds/luci/luci-lib-nixio/compile#2.52#0.29#4.80

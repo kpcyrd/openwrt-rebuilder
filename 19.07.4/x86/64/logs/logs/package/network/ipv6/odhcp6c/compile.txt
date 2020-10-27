@@ -49,4 +49,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/odhcp6c-2019-01-11-e199804b'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/odhcp6c-2019-01-11-e199804b/ipkg-x86_64/odhcp6c/usr/sbin/odhcp6c: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/odhcp6c-2019-01-11-e199804b/ipkg-x86_64/odhcp6c into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/odhcp6c_2019-01-11-e199804b-16_x86_64.ipk
-time: package/network/ipv6/odhcp6c/compile#1.92#0.32#3.08
+time: package/network/ipv6/odhcp6c/compile#1.82#0.27#2.64

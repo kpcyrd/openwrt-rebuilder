@@ -1,1 +1,1 @@
-time: package/feeds/luci/luci-theme-bootstrap/download#0.20#0.05#0.47
+time: package/feeds/luci/luci-theme-bootstrap/download#0.20#0.04#0.48

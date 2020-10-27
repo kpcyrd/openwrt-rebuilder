@@ -9,4 +9,4 @@ cc  -o po2lmo po2lmo.o template_lmo.o plural_formula.o
 cc    -DNDEBUG -c -o jsmin.o jsmin.c
 cc  -o jsmin jsmin.o
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/feeds/luci/modules/luci-base/src'
-time: package/feeds/luci/luci-base/host-compile#2.67#0.60#8.39
+time: package/feeds/luci/luci-base/host-compile#2.53#0.51#7.74

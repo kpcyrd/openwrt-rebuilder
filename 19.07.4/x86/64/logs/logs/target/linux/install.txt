@@ -21,7 +21,7 @@ Creating filesystem with parameters:
 Created filesystem with 1235/16384 inodes and 4206/65536 blocks
 Parallel mksquashfs: Using 1 processor
 Creating 4.0 filesystem on /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs, block size 262144.
-[===============================================================\] 910/910 100%
+[===============================================================-] 910/910 100%
 
 Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
 	compressed data, compressed metadata, compressed fragments,
@@ -49,7 +49,7 @@ Number of gids 1
 	root (0)
 1+0 records in
 1+0 records out
-131072 bytes (131 kB, 128 KiB) copied, 0.000183798 s, 713 MB/s
+131072 bytes (131 kB, 128 KiB) copied, 0.000206402 s, 635 MB/s
 cp: cannot stat '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/root-x86/boot/.': No such file or directory
 + '[' 6 == 5 -o 6 == 6 ']'
 + OUTPUT=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img
@@ -62,7 +62,7 @@ cp: cannot stat '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/s
 + head=16
 + sect=63
 + cyl=552
-++ ptgen -o /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img -h 16 -s 63 -p 16m -p 256m -l 256 -S 0x398fdb26
+++ ptgen -o /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img -h 16 -s 63 -p 16m -p 256m -l 256 -S 0xde49dddf
 + set 262144 16777216 17301504 268435456
 + KERNELOFFSET=512
 + KERNELSIZE=16777216
@@ -72,7 +72,7 @@ cp: cannot stat '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/s
 + dd if=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs of=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img bs=512 seek=33792 conv=notrunc
 6064+1 records in
 6064+1 records out
-3104828 bytes (3.1 MB, 3.0 MiB) copied, 0.0162689 s, 191 MB/s
+3104828 bytes (3.1 MB, 3.0 MiB) copied, 0.0138316 s, 224 MB/s
 + make_ext4fs -J -l 16777216 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img.kernel /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/root.grub
 Creating filesystem with parameters:
     Size: 16777216
@@ -90,7 +90,7 @@ Created filesystem with 15/1024 inodes and 1037/4096 blocks
 + dd if=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img.kernel of=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img bs=512 seek=512 conv=notrunc
 32768+0 records in
 32768+0 records out
-16777216 bytes (17 MB, 16 MiB) copied, 0.0754007 s, 223 MB/s
+16777216 bytes (17 MB, 16 MiB) copied, 0.0748902 s, 224 MB/s
 + rm -f /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-squashfs.img.kernel
 cp: cannot stat '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/staging_dir/target-x86_64_musl/root-x86/boot/.': No such file or directory
 + '[' 6 == 5 -o 6 == 6 ']'
@@ -104,7 +104,7 @@ cp: cannot stat '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/s
 + head=16
 + sect=63
 + cyl=552
-++ ptgen -o /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img -h 16 -s 63 -p 16m -p 256m -l 256 -S 0x398fdb26
+++ ptgen -o /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img -h 16 -s 63 -p 16m -p 256m -l 256 -S 0xde49dddf
 + set 262144 16777216 17301504 268435456
 + KERNELOFFSET=512
 + KERNELSIZE=16777216
@@ -114,7 +114,7 @@ cp: cannot stat '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/s
 + dd if=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/root.ext4 of=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img bs=512 seek=33792 conv=notrunc
 524288+0 records in
 524288+0 records out
-268435456 bytes (268 MB, 256 MiB) copied, 1.56312 s, 172 MB/s
+268435456 bytes (268 MB, 256 MiB) copied, 1.5077 s, 178 MB/s
 + make_ext4fs -J -l 16777216 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img.kernel /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/root.grub
 Creating filesystem with parameters:
     Size: 16777216
@@ -132,6 +132,6 @@ Created filesystem with 15/1024 inodes and 1037/4096 blocks
 + dd if=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img.kernel of=/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img bs=512 seek=512 conv=notrunc
 32768+0 records in
 32768+0 records out
-16777216 bytes (17 MB, 16 MiB) copied, 0.0806833 s, 208 MB/s
+16777216 bytes (17 MB, 16 MiB) copied, 0.0814719 s, 206 MB/s
 + rm -f /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/openwrt-19.07.4-x86-64-combined-ext4.img.kernel
-time: target/linux/install#916.09#141.24#553.25
+time: target/linux/install#870.11#131.57#524.02

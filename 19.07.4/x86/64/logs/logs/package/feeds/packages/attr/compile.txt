@@ -1,7 +1,7 @@
 + curl -f --connect-timeout 20 --retry 5 --location --insecure http://git.savannah.nongnu.org/cgit/attr.git/snapshot/attr-2.4.48.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 66830    0 66830    0     0   522k      0 --:--:-- --:--:-- --:--:--  522k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 66830    0 66830    0     0   539k      0 --:--:-- --:--:-- --:--:--  539k
 
 Applying ./patches/100-no-gettext_configure.patch using plaintext: 
 patching file configure.ac
@@ -226,4 +226,4 @@ ln -s attr_set.3 man3/attr_setf.3
 make[5]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/attr-2.4.48'
 make[4]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/attr-2.4.48'
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/attr-2.4.48'
-time: package/feeds/packages/attr/compile#9.35#1.63#12.34
+time: package/feeds/packages/attr/compile#8.61#1.23#11.24

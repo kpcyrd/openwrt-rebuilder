@@ -14,4 +14,4 @@ make[3]: Entering directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuild
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/linux-4.14.195'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/gpio-nct5104d/ipkg-x86_64/kmod-gpio-nct5104d/lib/modules/4.14.195/gpio-nct5104d.ko: relocatable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/linux-x86_64/gpio-nct5104d/ipkg-x86_64/kmod-gpio-nct5104d into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/x86/64/packages/kmod-gpio-nct5104d_4.14.195-1_x86_64.ipk
-time: package/kernel/gpio-nct5104d/compile#1.49#0.48#4.04
+time: package/kernel/gpio-nct5104d/compile#1.45#0.43#2.60

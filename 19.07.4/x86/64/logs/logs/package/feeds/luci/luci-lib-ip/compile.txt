@@ -20,4 +20,4 @@ cp ip.so /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-lib-ip/src'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-lib-ip/ipkg-x86_64/luci-lib-ip/usr/lib/lua/luci/ip.so: shared object
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/luci-lib-ip/ipkg-x86_64/luci-lib-ip into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/luci/luci-lib-ip_git-20.247.75781-0d0ab01-1_x86_64.ipk
-time: package/feeds/luci/luci-lib-ip/compile#1.53#0.17#3.04
+time: package/feeds/luci/luci-lib-ip/compile#1.43#0.22#2.71

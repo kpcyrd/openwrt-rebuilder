@@ -62,4 +62,4 @@ Install the project...
 make[3]: Leaving directory '/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/firewall-2019-11-22-8174814a'
 rstrip.sh: /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/firewall-2019-11-22-8174814a/ipkg-x86_64/firewall/sbin/fw3: executable
 Packaged contents of /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/build_dir/target-x86_64_musl/firewall-2019-11-22-8174814a/ipkg-x86_64/firewall into /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/packages/x86_64/base/firewall_2019-11-22-8174814a-2_x86_64.ipk
-time: package/network/config/firewall/compile#4.18#0.59#8.33
+time: package/network/config/firewall/compile#3.90#0.47#11.32
