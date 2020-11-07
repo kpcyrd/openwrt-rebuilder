@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/opt/hostedtoolcache/Python/3.8.6/x64/bin/diffoscope /tmp/tmpk5nv3130 /home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/ath79/generic/openwrt-ath79-generic-tplink_cpe510-v2-squashfs-sysupgrade.bin --html results/openwrt-ath79-generic-tplink_cpe510-v2-squashfs-sysupgrade.bin.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .diffponct {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">803 B</span></div>
+  <div><span class="source">/tmp/tmpk5nv3130</span> vs.</div>
+  <div id="top"><span class="source">/home/runner/work/openwrt-rebuilder/openwrt-rebuilder/rebuild/bin/targets/ath79/generic/openwrt-ath79-generic-tplink_cpe510-v2-squashfs-sysupgrade.bin</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">637 B</span></div>
+    <div id="strings---all---bytes-----"><span class="source">strings --all --bytes=8 {}</span>
+      <a class="anchor" href="#strings---all---bytes-----">¶</a>
+    </div>
+    </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 524, 29 lines modified</td><td colspan="2">Offset 524, 39 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">524 </td><td class="diffpresent">,iHV:eQo*k[$</td><td class="diffline">524 </td><td class="diffpresent">,iHV:eQo*k[$</td></tr>
+<tr class="diffunmodified"><td class="diffline">525 </td><td class="diffpresent">S+Z+$Crg</td><td class="diffline">525 </td><td class="diffpresent">S+Z+$Crg</td></tr>
+<tr class="diffunmodified"><td class="diffline">526 </td><td class="diffpresent">2UmM1bq[</td><td class="diffline">526 </td><td class="diffpresent">2UmM1bq[</td></tr>
+<tr class="diffunmodified"><td class="diffline">527 </td><td class="diffpresent">wCQ@##&lt;Ff</td><td class="diffline">527 </td><td class="diffpresent">wCQ@##&lt;Ff</td></tr>
+<tr class="diffunmodified"><td class="diffline">528 </td><td class="diffpresent">{oW9b7L7</td><td class="diffline">528 </td><td class="diffpresent">{oW9b7L7</td></tr>
+<tr class="diffunmodified"><td class="diffline">529 </td><td class="diffpresent">a5kLz&gt;[G</td><td class="diffline">529 </td><td class="diffpresent">a5kLz&gt;[G</td></tr>
+<tr class="diffunmodified"><td class="diffline">530 </td><td class="diffpresent">kXz7Gbvy</td><td class="diffline">530 </td><td class="diffpresent">kXz7Gbvy</td></tr>
+<tr class="diffchanged"><td class="diffline">531 </td><td class="diffpresent"><del>rSOfy+Dwx</del></td><td class="diffline">531 </td><td class="diffpresent"><ins>&#x27;W<span class="diffponct">»</span>     _1K0zM</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">532 </td><td class="diffpresent"><del>.8t!1(B]</del></td><td class="diffline">532 </td><td class="diffpresent"><ins>F</ins><ins>us1NeEUy</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">533 </td><td class="diffpresent"><del>+ii{M.qH</del></td><td class="diffline">533 </td><td class="diffpresent"><ins>&#x27;Qh`#Wkm</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">534 </td><td class="diffpresent"><del>P_ltJ5I9</del></td><td class="diffline">534 </td><td class="diffpresent"><ins>(</ins><ins>5pWPdAh&#x27;</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">535 </td><td class="diffpresent"><del>\Nv@c?&#x27;[</del></td><td class="diffline">535 </td><td class="diffpresent"><ins>lgi{&amp;kCF</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">536 </td><td class="diffpresent"><del>9*0@s<span class="diffponct">·</span>Yl</del></td><td class="diffline">536 </td><td class="diffpresent"><ins>:`6$XE9O</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">537 </td><td class="diffpresent"><del>mfXP6\-l</del></td><td class="diffline">537 </td><td class="diffpresent"><ins>J</ins><ins>;u+VWa<span class="diffponct">·</span>x</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">538 </td><td class="diffpresent"><del>x</del><del>?<span class="diffponct">·</span>h:9:_</del>z<del>-</del></td><td class="diffline">538 </td><td class="diffpresent"><ins>[$A!P(`</ins>z</td></tr>
+<tr class="diffchanged"><td class="diffline">539 </td><td class="diffpresent"><del>*&quot;T*T</del>?<del>4Z</del></td><td class="diffline">539 </td><td class="diffpresent"><ins>y2</ins><ins>}/3^[</ins>?<ins>iM</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">540 </td><td class="diffpresent"><del>RP_;e&quot;&quot;7</del></td><td class="diffline">540 </td><td class="diffpresent"><ins>^@ue5s[<span class="diffponct">»</span></ins></td></tr>
+<tr class="diffchanged"><td class="diffline">541 </td><td class="diffpresent"><del>D$VHywh%</del></td><td class="diffline">541 </td><td class="diffpresent"><ins><span class="diffponct">·</span></ins><ins>qox0JJV=</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">542 </td><td class="diffpresent"><del>}OanV</del>}<del>$4</del></td><td class="diffline">542 </td><td class="diffpresent"><ins>&amp;HY&lt;:</ins>}<ins>@g</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">543 </td><td class="diffpresent"><del>0</del><del>fRP^O1Og</del></td><td class="diffline">543 </td><td class="diffpresent"><ins>s3_Lk:x~</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">544 </td><td class="diffpresent"><del>Y</del><del>8MH]r]W7</del></td><td class="diffline">544 </td><td class="diffpresent"><ins>/!?r\+tF</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">545 </td><td class="diffpresent"><del>v^;@Hmc]</del></td><td class="diffline">545 </td><td class="diffpresent"><ins>.</ins><ins>e{k.)f;&lt;</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">546 </td><td class="diffpresent">zRqIwKa,</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">547 </td><td class="diffpresent">Ez&gt;+cvTT7s</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">548 </td><td class="diffpresent">rk*`}7UjY</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">549 </td><td class="diffpresent">iC@I))Pb</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">550 </td><td class="diffpresent">-1+<span class="diffponct">»</span>    _3jOY</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">551 </td><td class="diffpresent">kQn42XV$</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">552 </td><td class="diffpresent">5MQoVYLjY</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">553 </td><td class="diffpresent">Lu-DW=3D</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">554 </td><td class="diffpresent">6ch{phhN</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">555 </td><td class="diffpresent">o(X[NmJR</td></tr>
+<tr class="diffunmodified"><td class="diffline">546 </td><td class="diffpresent">eJsfTFN!</td><td class="diffline">556 </td><td class="diffpresent">eJsfTFN!</td></tr>
+<tr class="diffunmodified"><td class="diffline">547 </td><td class="diffpresent">&lt;Aj&amp;-B),</td><td class="diffline">557 </td><td class="diffpresent">&lt;Aj&amp;-B),</td></tr>
+<tr class="diffunmodified"><td class="diffline">548 </td><td class="diffpresent">kvsOV,7N</td><td class="diffline">558 </td><td class="diffpresent">kvsOV,7N</td></tr>
+<tr class="diffunmodified"><td class="diffline">549 </td><td class="diffpresent"><span class="diffponct">·</span>|jhySGz</td><td class="diffline">559 </td><td class="diffpresent"><span class="diffponct">·</span>|jhySGz</td></tr>
+<tr class="diffunmodified"><td class="diffline">550 </td><td class="diffpresent">0r:v|C_W</td><td class="diffline">560 </td><td class="diffpresent">0r:v|C_W</td></tr>
+<tr class="diffunmodified"><td class="diffline">551 </td><td class="diffpresent">I!l=`{rA</td><td class="diffline">561 </td><td class="diffpresent">I!l=`{rA</td></tr>
+<tr class="diffunmodified"><td class="diffline">552 </td><td class="diffpresent">-%3}Z$&quot;y</td><td class="diffline">562 </td><td class="diffpresent">-%3}Z$&quot;y</td></tr>
+</table>  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 151
+</div>
+</body>
+</html>
+
