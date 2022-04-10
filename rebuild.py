@@ -417,8 +417,7 @@ def diffoscope_multithread():
     """Run diffoscope over non reproducible files in all available threads"""
 
     (results_path / "packages").mkdir(exist_ok=True, parents=True)
-    # pool = Pool(cpu_count() + 1)
-    pool = Pool(1)
+    pool = Pool(cpu_count() * 2)
     for kind in ["images", "packages"]:
         for result in getattr(suite, kind).unreproducible:
             print(f"Compare {kind}/{result.name}")
